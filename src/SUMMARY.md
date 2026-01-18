@@ -19,7 +19,7 @@
 
 ## Rhythm
 
-- [Overview: Rhythm](./part2/01-rhythm/overview.md)
+- [Rhythm](./part2/01-rhythm/overview.md)
   - [Chapter I: The Charm of Impossibilities](./part2/01-rhythm/ch01-charm-of-impossibilities.md)
     - [Key Concepts](./part2/01-rhythm/ch01-key-concepts.md)
       - [The Primacy of Melody](./part2/01-rhythm/ch01-primacy-of-melody.md)
@@ -54,12 +54,19 @@
     - [Relationship to Other Chapters](./part2/01-rhythm/ch04-relationship.md)
     - [Summary](./part2/01-rhythm/ch04-summary.md)
   - [Chapter V: Nonretrogradable Rhythms](./part2/01-rhythm/ch05-nonretrogradable.md)
+    - [Key Concepts](./part2/01-rhythm/ch05-key-concepts.md)
+      - [Retrograde Rhythms](./part2/01-rhythm/ch05-retrograde-rhythms.md)
+      - [Nonretrogradable Rhythms (Palindromic Rhythms)](./part2/01-rhythm/ch05-nonretrogradable-rhythms.md)
+      - [Relation of Nonretrogradable Rhythms and Modes of Limited Transpositions](./part2/01-rhythm/ch05-relation-to-modes.md)
+      - [Central Common Values](./part2/01-rhythm/ch05-central-common-values.md)
+    - [Relationship to Other Chapters](./part2/01-rhythm/ch05-relationship.md)
+    - [Summary](./part2/01-rhythm/ch05-summary.md)
   - [Chapter VI: Polyrhythm and Rhythmic Pedals](./part2/01-rhythm/ch06-polyrhythm.md)
   - [Chapter VII: Rhythmic Notations](./part2/01-rhythm/ch07-rhythmic-notations.md)
 
 ## Melody
 
-- [Overview: Melody](./part2/02-melody/overview.md)
+- [Melody](./part2/02-melody/overview.md)
   - [Chapter VIII: Melody and Melodic Contours](./part2/02-melody/ch08-melodic-contours.md)
   - [Chapter IX: Bird Song](./part2/02-melody/ch09-bird-song.md)
   - [Chapter X: Melodic Development](./part2/02-melody/ch10-melodic-development.md)
@@ -68,7 +75,7 @@
 
 ## Harmony
 
-- [Overview: Harmony](./part2/03-harmony/overview.md)
+- [Harmony](./part2/03-harmony/overview.md)
   - [Chapter XIII: Harmony, Debussy, Added Notes](./part2/03-harmony/ch13-added-notes.md)
   - [Chapter XIV: Special Chords, Clusters, Connections](./part2/03-harmony/ch14-special-chords.md)
   - [Chapter XV: Enlargement of Foreign Notes, Upbeats, Terminations](./part2/03-harmony/ch15-enlargement.md)
