@@ -23,13 +23,20 @@ This is *not* a transcription or reproduction of Messiaen's text. The original r
 ### Structure
 
 **Part I: The Original Text**
+
 Structural orientation only: table of contents, chapter outlines, and information about obtaining the original.
 
 **Part II: Modern Summary & Analysis**
+
 Each of the nineteen chapters summarized in formal academic English, using contemporary music-theoretical vocabulary. Where Messiaen's 1944 terminology differs from current usage, equivalences are noted. Musical examples are referenced by number; readers should consult Volume 2 of the original publication.
 
 **Part III: Reference Apparatus**
+
 Cross-indexed reference tools organized for practical use: concept index, technique summaries, quick-reference tables, and multiple pathways into the material.
+
+**Part IV: Technique of *Your* Musical Language**
+
+A composer's workbook for developing your own systematic self-knowledge. Messiaen's treatise is not merely a catalog of his techniques—it is a demonstration of rigorous compositional self-observation. Part IV provides templates and prompts for documenting your own rhythmic, melodic, harmonic, and formal vocabulary, following Messiaen's method of identifying sources, extracting principles, and tracking evolution. The goal is not to imitate Messiaen's language but to develop the same depth of understanding about your own.
 
 ### A Note on Terminology
 
