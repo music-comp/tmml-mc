@@ -1,0 +1,433 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Melodic Techniques - The Technique of My Musical Language: A Modern Companion</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A scholarly companion to Olivier Messiaen&#x27;s La technique de mon langage musical (1944), in the English translation by John Satterfield (1956).">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Technique of My Musical Language: A Modern Companion</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc/edit/main/src/part3/melody.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="melodic-techniques-quick-reference"><a class="header" href="#melodic-techniques-quick-reference">Melodic Techniques: Quick Reference</a></h1>
+<p>A practical guide to Messiaen's melodic language.</p>
+<hr />
+<h2 id="core-principle-melodic-supremacy"><a class="header" href="#core-principle-melodic-supremacy">Core Principle: Melodic Supremacy</a></h2>
+<p>Melody is "sovereign"—the generative element from which rhythm and harmony emerge.</p>
+<ul>
+<li>Harmony must be "true" (wanted by the melody)</li>
+<li>Rhythm remains "pliant," serving melodic development</li>
+<li>The melody teaches you its harmonic needs</li>
+</ul>
+<hr />
+<h2 id="1-preferred-intervals"><a class="header" href="#1-preferred-intervals">1. Preferred Intervals</a></h2>
+<h3 id="the-descending-tritone-augmented-fourth"><a class="header" href="#the-descending-tritone-augmented-fourth">The Descending Tritone (Augmented Fourth)</a></h3>
+<ul>
+<li>Acoustically justified: 11th partial of harmonic series</li>
+<li>Characteristic resolution: F♯ → C (down, not up)</li>
+<li>Creates distinctive Messiaen gesture</li>
+</ul>
+<h3 id="the-descending-major-sixth"><a class="header" href="#the-descending-major-sixth">The Descending Major Sixth</a></h3>
+<ul>
+<li>Historical precedent: Mozart's melodic practice</li>
+<li>Connected to added sixth chord</li>
+<li>Open, consonant quality contrasts with tritone</li>
+</ul>
+<h3 id="chromatic-formulas"><a class="header" href="#chromatic-formulas">Chromatic Formulas</a></h3>
+<ul>
+<li>Small chromatic inflections within modal contexts</li>
+<li>"Returning" chromatic gestures (Bartók influence)</li>
+</ul>
+<hr />
+<h2 id="2-melodic-contours"><a class="header" href="#2-melodic-contours">2. Melodic Contours</a></h2>
+<h3 id="cadential-formulas-from-ch-viii"><a class="header" href="#cadential-formulas-from-ch-viii">Cadential Formulas (from Ch. VIII)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Type</th><th>Derivation</th><th>Character</th></tr></thead><tbody>
+<tr><td>Three descending notes</td><td>Debussy, Moussorgsky</td><td>Melancholy, closure</td></tr>
+<tr><td>Tritone resolution down</td><td>Acoustic/modal</td><td>Characteristic Messiaen</td></tr>
+<tr><td>Major sixth descent</td><td>Mozart tradition</td><td>Lyrical openness</td></tr>
+<tr><td>Chromatic returning</td><td>Bartók influence</td><td>Modal inflection</td></tr>
+</tbody></table>
+</div>
+<h3 id="contour-types"><a class="header" href="#contour-types">Contour Types</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Contour</th><th>Character</th><th>Use</th></tr></thead><tbody>
+<tr><td>Ascending</td><td>Building tension</td><td>Preparation, development</td></tr>
+<tr><td>Descending</td><td>Resolution, closure</td><td>Cadences, terminations</td></tr>
+<tr><td>Arch (up-down)</td><td>Complete gesture</td><td>Self-contained phrases</td></tr>
+<tr><td>Circling</td><td>Stasis, meditation</td><td>Pedal-based passages</td></tr>
+<tr><td>Disjunct/leaping</td><td>Energy, drama</td><td>Bird style, climaxes</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="3-source-materials"><a class="header" href="#3-source-materials">3. Source Materials</a></h2>
+<h3 id="plainchant"><a class="header" href="#plainchant">Plainchant</a></h3>
+<p><strong>What to extract</strong>: Melodic contours, phrase shapes, modal character
+<strong>How to transform</strong>: Reharmonize with modes of limited transposition; apply added values
+<strong>Not to imitate</strong>: Actual chant melodies, chant rhythm literally</p>
+<h3 id="hindu-ragas"><a class="header" href="#hindu-ragas">Hindu Ragas</a></h3>
+<p><strong>What to extract</strong>: Unexpected contours, ornamental character, characteristic gestures
+<strong>How to transform</strong>: Combine with Western rhythmic/harmonic techniques
+<strong>Note</strong>: Messiaen's approach is impressionistic, not systematic raga study</p>
+<h3 id="folk-songs"><a class="header" href="#folk-songs">Folk Songs</a></h3>
+<p><strong>What to extract</strong>: Structural principles, interval preferences, phrase organization
+<strong>How to transform</strong>: Pass through "deforming prism"—complete transformation
+<strong>Goal</strong>: "Destroy resemblance to the model"</p>
+<h3 id="bird-song"><a class="header" href="#bird-song">Bird Song</a></h3>
+<p><strong>What to extract</strong>: Rhythmic freedom, melodic unpredictability, ornamental density, registral extremes
+<strong>Process</strong>: Transcription → Transformation → Interpretation
+<strong>Not</strong>: Literal imitation (birds use microtones; "ridiculous to servilely copy nature")</p>
+<hr />
+<h2 id="4-development-techniques"><a class="header" href="#4-development-techniques">4. Development Techniques</a></h2>
+<h3 id="elimination"><a class="header" href="#elimination">Elimination</a></h3>
+<p><strong>Process</strong>: Repeat fragment while progressively removing notes
+<strong>Direction</strong>: Complete → reduced → schematic (often single note)
+<strong>Model</strong>: Beethoven Fifth Symphony
+<strong>Effect</strong>: Concentration, intensification, "crisis"</p>
+<pre><code>Theme:        8 notes
+First pass:   4 notes (same material, fewer)
+Second pass:  2 notes
+Final:        1 note or minimal gesture
+</code></pre>
+<h3 id="interversion"><a class="header" href="#interversion">Interversion</a></h3>
+<p><strong>Process</strong>: Reorder pitches while maintaining pitch-class content
+<strong>Effect</strong>: Same "ingredients," different "recipe"
+<strong>Works well with</strong>: Modes of limited transposition (bounded pitch content)</p>
+<pre><code>Original:     C - E - G - B♭
+Interversion: G - C - B♭ - E
+Interversion: B♭ - G - E - C
+(etc.)
+</code></pre>
+<h3 id="change-of-register"><a class="header" href="#change-of-register">Change of Register</a></h3>
+<p><strong>Process</strong>: Extreme octave displacement—low ↔ high
+<strong>Effect</strong>: Textural transformation, new character
+<strong>Combined with augmentation</strong>: Creates "crushing power"</p>
+<pre><code>Original:     c' - e' - g'  (middle register)
+Transformed:  c''' - E - g'  (extreme displacement)
+</code></pre>
+<hr />
+<h2 id="5-sentence-structures"><a class="header" href="#5-sentence-structures">5. Sentence Structures</a></h2>
+<h3 id="song-sentence-aba"><a class="header" href="#song-sentence-aba">Song-Sentence (ABA')</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Section</th><th>Function</th></tr></thead><tbody>
+<tr><td>A: Theme</td><td>Antecedent + consequent</td></tr>
+<tr><td>B: Middle</td><td>Development, dominant inflection</td></tr>
+<tr><td>A': Final</td><td>Return, resolution</td></tr>
+</tbody></table>
+</div>
+<h3 id="binary-sentence-abab"><a class="header" href="#binary-sentence-abab">Binary Sentence (ABAB')</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Section</th><th>Function</th></tr></thead><tbody>
+<tr><td>A: Theme</td><td>Statement</td></tr>
+<tr><td>B: Commentary</td><td>Development of A</td></tr>
+<tr><td>A: Theme</td><td>Restatement</td></tr>
+<tr><td>B': Commentary</td><td>Varied development</td></tr>
+</tbody></table>
+</div>
+<h3 id="ternary-sentence-abcba"><a class="header" href="#ternary-sentence-abcba">Ternary Sentence (ABCBA)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Section</th><th>Function</th></tr></thead><tbody>
+<tr><td>A: Theme</td><td>Opening</td></tr>
+<tr><td>B: Consequent</td><td>Answer</td></tr>
+<tr><td>C: Commentary</td><td>Central development</td></tr>
+<tr><td>B: Consequent</td><td>Return</td></tr>
+<tr><td>A: Theme</td><td>Closing frame</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="6-bird-style-characteristics"><a class="header" href="#6-bird-style-characteristics">6. Bird Style Characteristics</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Feature</th><th>Realization</th></tr></thead><tbody>
+<tr><td>Rhythmic freedom</td><td>Irregular groupings, no metric pulse</td></tr>
+<tr><td>Wide leaps</td><td>Unexpected interval jumps</td></tr>
+<tr><td>Ornamental density</td><td>Trills, volleys, rapid figurations</td></tr>
+<tr><td>Registral extremes</td><td>High-register passages</td></tr>
+<tr><td>Unpredictable contour</td><td>Defies melodic expectations</td></tr>
+</tbody></table>
+</div>
+<p><strong>Key insight</strong>: Bird style provides melody freed from human conventions of singability and phrase balance.</p>
+<hr />
+<h2 id="7-the-deforming-prism"><a class="header" href="#7-the-deforming-prism">7. The "Deforming Prism"</a></h2>
+<p>Messiaen's metaphor for transforming sources:</p>
+<p><strong>Input</strong>: Any melodic material (folk song, raga, plainchant, other composers)</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Extract structural principle (not surface features)</li>
+<li>Apply personal harmonic language (modes)</li>
+<li>Apply personal rhythmic language (added values, etc.)</li>
+<li>Filter through personal aesthetic</li>
+</ol>
+<p><strong>Output</strong>: Material that sounds like Messiaen, not like source</p>
+<p><strong>Test</strong>: Can you identify the source? If easily yes → not enough transformation.</p>
+<hr />
+<h2 id="8-integration-with-other-parameters"><a class="header" href="#8-integration-with-other-parameters">8. Integration with Other Parameters</a></h2>
+<h3 id="melody--added-values"><a class="header" href="#melody--added-values">Melody + Added Values</a></h3>
+<p>Apply rhythmic added values to melodic phrases:</p>
+<ul>
+<li>Elongated preparations before melodic peaks</li>
+<li>Slackened descents after climaxes</li>
+</ul>
+<h3 id="melody--modes"><a class="header" href="#melody--modes">Melody + Modes</a></h3>
+<p>Write melodies using only pitches from chosen mode:</p>
+<ul>
+<li>Mode determines available intervals</li>
+<li>Characteristic mode intervals become melodic fingerprints</li>
+</ul>
+<h3 id="melody-generating-harmony"><a class="header" href="#melody-generating-harmony">Melody Generating Harmony</a></h3>
+<ol>
+<li>Write complete melody first</li>
+<li>Analyze its interval content</li>
+<li>Determine what harmonies it "wants"</li>
+<li>Supply those harmonies (from modes, added-note chords, etc.)</li>
+</ol>
+<hr />
+<h2 id="historical-models-referenced"><a class="header" href="#historical-models-referenced">Historical Models Referenced</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Composer</th><th>What Messiaen Takes</th></tr></thead><tbody>
+<tr><td>Mozart</td><td>Major sixth usage, melodic grace</td></tr>
+<tr><td>Moussorgsky</td><td>Cadential formulas, modal color</td></tr>
+<tr><td>Debussy</td><td>Three-note descents, added-note implications</td></tr>
+<tr><td>Grieg</td><td>Descending gestures</td></tr>
+<tr><td>Ravel</td><td>Melodic contours (through "prism")</td></tr>
+<tr><td>Bartók</td><td>Chromatic formulas, folk integration</td></tr>
+<tr><td>Berg</td><td>Registral displacement</td></tr>
+<tr><td>Jolivet</td><td>Contemporary French style</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="quick-diagnostic"><a class="header" href="#quick-diagnostic">Quick Diagnostic</a></h2>
+<p><strong>Is your melody "Messiaen-esque"?</strong></p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Uses characteristic intervals (tritone, M6)?</li>
+<li><input disabled="" type="checkbox"/>
+Avoids regular metric accent?</li>
+<li><input disabled="" type="checkbox"/>
+Fits within a mode of limited transposition?</li>
+<li><input disabled="" type="checkbox"/>
+Contains some element of unpredictability?</li>
+<li><input disabled="" type="checkbox"/>
+Can undergo systematic development (elimination, interversion)?</li>
+<li><input disabled="" type="checkbox"/>
+Suggests its own harmony?</li>
+<li><input disabled="" type="checkbox"/>
+Transforms sources beyond recognition?</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../part3/rhythm.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../part3/harmony.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../part3/rhythm.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../part3/harmony.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter XVIII: Relation to Modal, Atonal, Polytonal, Quarter-Tone Music - The Technique of My Musical Language: A Modern Companion</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A scholarly companion to Olivier Messiaen&#x27;s La technique de mon langage musical (1944), in the English translation by John Satterfield (1956).">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../../";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Technique of My Musical Language: A Modern Companion</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc/edit/main/src/part2/03-harmony/ch18-modal-relations.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="chapter-xviii-relation-of-these-modes-to-modal-atonal-polytonal-and-quarter-tone-music"><a class="header" href="#chapter-xviii-relation-of-these-modes-to-modal-atonal-polytonal-and-quarter-tone-music">Chapter XVIII: Relation of These Modes to Modal, Atonal, Polytonal, and Quarter-Tone Music</a></h1>
+<blockquote>
+<p><strong>Original</strong>: Page 67 in Satterfield translation<br />
+<strong>Musical Examples</strong>: References to Examples 182, 310 from previous chapters</p>
+</blockquote>
+<h2 id="overview"><a class="header" href="#overview">Overview</a></h2>
+<p>Chapter XVIII positions Messiaen's modes of limited transpositions within the landscape of early twentieth-century compositional approaches, distinguishing his system from traditional modal music, atonality, polytonality, and quarter-tone systems. The chapter is brief but conceptually significant, clarifying what the modes are not while affirming what they uniquely accomplish. Messiaen argues that his modes differ fundamentally from historical modal systems (Indian, Chinese, Greek, plainchant) in their basis on symmetrical structure rather than scalar tradition. He distinguishes his approach from atonality by demonstrating how modes can suggest tonal centers while maintaining their distinctive character. He differentiates his practice from polytonality by emphasizing that modes create "the atmosphere of several tonalities at once, without polytonality"—a subtle but important distinction where the modal force absorbs potential polytonal implications. Finally, he acknowledges the theoretical possibility of modes of limited transpositions in quarter-tone systems while declining to explore this territory, noting it would require extensive separate treatment.</p>
+<h2 id="key-concepts"><a class="header" href="#key-concepts">Key Concepts</a></h2>
+<h3 id="distinction-from-traditional-modal-systems"><a class="header" href="#distinction-from-traditional-modal-systems">Distinction from Traditional Modal Systems</a></h3>
+<p><strong>Definition</strong>: The clarification that Messiaen's modes of limited transpositions differ fundamentally from historical modal systems—including those of India, China, ancient Greece, and plainchant—which are based on scalar traditions transposable twelve times within the octave.</p>
+<p><strong>Messiaen's Treatment</strong>: Messiaen explicitly states that his modes have nothing in common with the three great modal systems of India, China, and ancient Greece, nor with modes of plainchant (which derive from Greek modes). All these different modes constitute what he calls "modal music," and his modes can be opposed to them or mixed with them. In paragraph 8 of Chapter XII, Example 182 ("le Verbe") demonstrates this mixing, combining the second mode of limited transpositions (the song) with tonal harmonies and the seventh mode of plainchant (the mode on G).</p>
+<p><strong>Modern Context</strong>: This distinction addresses a potential misconception—that Messiaen's "modes" simply represent another contribution to the long history of modal composition extending from medieval plainchant through folk music traditions to the modal jazz of the 1950s-60s. Instead, Messiaen emphasizes that his modes arise from a fundamentally different principle: symmetry and limited transposability rather than scalar tradition or cultural convention. Historical modes (Dorian, Phrygian, Mixolydian, etc., and their non-Western counterparts) are all transposable twelve times—they represent rotations or selections from the chromatic collection rather than symmetrical subsets. Contemporary theory would distinguish between diatonic modality (based on the seven-note diatonic collection and its rotations) and symmetrical modality (based on collections with transpositional limitations). Messiaen's modes belong exclusively to the latter category. This distinction also clarifies that despite the name "modes," Messiaen's system does not invoke historical modal practice's characteristic melodic formulas, cadential patterns, or hierarchical pitch relationships. The possibility of mixing his modes with traditional modal music (as in Example 182) demonstrates their compatibility as harmonic resources, even though they arise from different organizational principles.</p>
+<p><strong>Examples</strong>: Example 182 (Chapter XII)</p>
+<hr />
+<h3 id="relation-to-atonal-music"><a class="header" href="#relation-to-atonal-music">Relation to Atonal Music</a></h3>
+<p><strong>Definition</strong>: The relationship between Messiaen's modes and atonal compositional practices, particularly the distinction between modal harmony (which can suggest tonal centers) and systematic atonality (which avoids tonal reference).</p>
+<p><strong>Messiaen's Treatment</strong>: Example 310 of Chapter XV ("le Mystère de la Sainte Trinité") demonstrates how Messiaen mixes his modes with atonal music. The principal melody, given to the intermediate voice, is written in the second mode of limited transpositions (third transposition for the first measure, first transposition afterwards). The upbeat and terminations of the upper voice, and the rhythmic pedal of the bass, are written in atonal style, creating a general sensation of the key of D.</p>
+<p><strong>Modern Context</strong>: The term "atonal" in 1944 carried different connotations than it might today. Messiaen likely refers to freely chromatic writing outside any modal or tonal system—passages using all twelve pitch classes without systematic organization. The example demonstrates that atonal elements can coexist with modal materials within a single texture, provided voice-leading and registral differentiation maintain clarity. The claim that this combination creates "general sensation of the key of D" reveals Messiaen's conviction that even in contexts mixing modal and chromatic materials, tonal orientation remains perceptible through strategic emphasis. Contemporary theory might describe this as "centric" rather than "tonal" music—music projecting a pitch center without employing functional harmony. The combination of modal melody with atonal accompaniment anticipates techniques in later twentieth-century music where composers layer materials from different harmonic systems to create complex textures. This approach differs fundamentally from the systematic atonality of the Second Viennese School (Schoenberg, Berg, Webern), where avoidance of tonal reference constitutes a primary compositional goal. Messiaen's practice remains more eclectic, employing atonal passages as coloristic resources rather than adhering to atonal principles systematically.</p>
+<p><strong>Examples</strong>: Example 310 (Chapter XV)</p>
+<hr />
+<h3 id="relation-to-polytonal-music"><a class="header" href="#relation-to-polytonal-music">Relation to Polytonal Music</a></h3>
+<p><strong>Definition</strong>: The crucial distinction between polytonality (the simultaneous presentation of multiple distinct tonal centers) and Messiaen's modal practice, which creates "the atmosphere of several tonalities at once, without polytonality."</p>
+<p><strong>Messiaen's Treatment</strong>: Messiaen reiterates that the modes offer listeners the atmosphere of several tonalities at once, without polytonality—a statement previously made in Chapter XVI. The chords and combinations of notes that the modes generate can be made equivocal with polytonal sonorities, but the modal force always absorbs them. By polymodality (discussed in Chapter XIX), multiple modes are superposed, and again, the listener perceives the coexistence of polytonal aggregations completely absorbed by the chosen polymodality.</p>
+<p><strong>Modern Context</strong>: This represents one of Messiaen's most subtle theoretical distinctions. Polytonality—as practiced by composers like Milhaud, Stravinsky, or Bartók—typically involves simultaneously presenting materials clearly identified with different key areas (for instance, C major in one hand against F-sharp major in the other). The effect is of two or more tonal streams operating independently. Messiaen argues that his modes produce something fundamentally different: because they exist outside any single tonality while containing pitch subsets that suggest multiple tonalities, they create harmonic ambiguity rather than polytonal juxtaposition. The "modal force" absorbs potential polytonal implications, meaning listeners perceive a unified (if ambiguous) harmonic field rather than competing tonal centers.</p>
+<p>Contemporary theory might describe this using concepts from neo-Riemannian analysis or pitch-class set theory: the modes function as common ground containing multiple potential tonal interpretations without committing to any single one. An octatonic collection, for instance, contains diminished seventh chords pointing toward four different keys, yet the collection itself doesn't assert any of these keys—it hovers among them. This differs from polytonal juxtaposition, where distinct key areas are simultaneously asserted. The distinction matters aesthetically: polytonality often creates harmonic tension or humor through the clash of incompatible tonalities, while modal ambiguity creates mysteriousness, suspension, or what Messiaen calls "the atmosphere of several tonalities." The promise that Chapter XIX will demonstrate polymodality (superposition of multiple modes) suggests that even when distinct modal layers operate simultaneously, the result still differs from polytonal practice—modes absorb and unify rather than clash and separate.</p>
+<p><strong>Examples</strong>: Discussed conceptually; demonstrations reserved for Chapter XIX</p>
+<hr />
+<h3 id="quarter-tone-music"><a class="header" href="#quarter-tone-music">Quarter-Tone Music</a></h3>
+<p><strong>Definition</strong>: Acknowledgment of the theoretical possibility that modes of limited transpositions could exist in microtonal systems dividing the octave into units smaller than semitones, particularly quarter-tone systems, though Messiaen declines to explore this territory in detail.</p>
+<p><strong>Messiaen's Treatment</strong>: Messiaen briefly mentions (recalling Chapter XVI, article 1) that the tempered quarter-tone system, advocated by composers Haba and Wischnegradsky, offers a series of modes of limited transpositions that continues the series Messiaen has presented. He cites one example: a scale of eight sounds in three-quarters of a tone, where each degree forms with its neighbor an interval of three-quarters of a tone or a neuter second (smaller by a quarter tone than the major second). This system comprises twenty-four sounds, twenty-four intervals, twenty-four transpositions—entirely new melodies and chords requiring special notation and special instruments. Messiaen states he cannot extend himself further on this question, which alone would fill several treatises.</p>
+<p><strong>Modern Context</strong>: Quarter-tone composition remained relatively marginal in Messiaen's time and has continued as a specialized practice rather than mainstream development. Composers like Alois Hába, Ivan Wyschnegradsky, Julian Carrillo, and later Easley Blackwood explored systematic microtonal divisions of the octave. Messiaen's insight—that symmetrical pitch collections with limited transposability can exist in any equal-tempered system—demonstrates mathematical understanding of the underlying principles. Just as twelve-tone equal temperament yields seven modes of limited transpositions (the maximum number possible in that system), twenty-four-tone equal temperament would yield its own set of symmetrical collections with analogous properties.</p>
+<p>Contemporary microtonal composers and theorists have explored these relationships systematically, discovering that any equal division of the octave generates characteristic symmetrical subsets. The number and types of these subsets depend on the divisor's factors—systems with more factors (like 24, which is divisible by 2, 3, 4, 6, 8, and 12) yield more symmetrical collections than systems with fewer factors. Messiaen's decision not to pursue quarter-tone composition reflects practical concerns—in 1944, quarter-tone instruments remained rare, notation unstandardized, and performance traditions undeveloped. His focus on twelve-tone equal temperament reflected the overwhelming dominance of that system in Western art music. The brief mention serves primarily to delimit his treatise's scope rather than to advocate for microtonal exploration. It also demonstrates Messiaen's awareness of contemporary experimental practices even when choosing not to adopt them in his own work.</p>
+<p><strong>Examples</strong>: Discussed conceptually only; no musical examples provided</p>
+<h2 id="relationship-to-other-chapters"><a class="header" href="#relationship-to-other-chapters">Relationship to Other Chapters</a></h2>
+<p>Chapter XVIII serves an important clarifying function, positioning the modes within contemporary compositional discourse. It directly references Chapter XVI's theoretical foundation while distinguishing Messiaen's approach from other twentieth-century harmonic systems. The examples of mixing modes with traditional modal music (Example 182 from Chapter XII) and atonal music (Example 310 from Chapter XV) demonstrate the flexibility of modal practice already explored in Chapter XVII. The discussion of polytonality anticipates Chapter XIX's treatment of polymodality, where the distinction between these concepts will be demonstrated through practical examples. The brief mention of quarter-tone systems connects to the mathematical completeness emphasized in Chapter XVI—the seven modes represent all possible modes of limited transpositions within twelve-tone equal temperament, just as quarter-tone systems would yield their own complete set. Throughout, the chapter reinforces the fundamental aesthetic principle from Chapter I: Messiaen's modes create a distinctive harmonic atmosphere—"the charm of impossibilities"—that differs from all other contemporary approaches while remaining compatible with them in various combinations.</p>
+<h2 id="summary"><a class="header" href="#summary">Summary</a></h2>
+<p>Chapter XVIII positions Messiaen's modes of limited transpositions within the landscape of early twentieth-century compositional practice by clarifying what they are not. The modes differ fundamentally from traditional modal systems (Indian, Chinese, Greek, plainchant) through their basis in symmetrical structure rather than scalar tradition. They differ from atonality by maintaining capacity to suggest tonal centers while offering distinctive harmonic colors. They differ from polytonality through a subtle but crucial distinction: rather than juxtaposing incompatible tonal centers, the modes create "the atmosphere of several tonalities at once, without polytonality"—the modal force absorbs potential polytonal implications into unified harmonic fields. Finally, Messiaen acknowledges that analogous systems of limited-transposition modes could exist in quarter-tone systems but declines to explore this territory, focusing instead on the complete set of seven modes available within twelve-tone equal temperament. This brief but conceptually dense chapter establishes Messiaen's modal practice as distinctive from other contemporary approaches while demonstrating its compatibility with various harmonic systems through judicious mixing and combination.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../part2/03-harmony/ch17-modal-modulations.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../part2/03-harmony/ch19-polymodality.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../part2/03-harmony/ch17-modal-modulations.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../part2/03-harmony/ch19-polymodality.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter XVII: Modulations of These Modes - The Technique of My Musical Language: A Modern Companion</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A scholarly companion to Olivier Messiaen&#x27;s La technique de mon langage musical (1944), in the English translation by John Satterfield (1956).">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../../";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Technique of My Musical Language: A Modern Companion</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc/edit/main/src/part2/03-harmony/ch17-modal-modulations.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="chapter-xvii-modulations-of-these-modes-and-their-relation-to-the-major-tonality"><a class="header" href="#chapter-xvii-modulations-of-these-modes-and-their-relation-to-the-major-tonality">Chapter XVII: Modulations of These Modes and Their Relation to the Major Tonality</a></h1>
+<blockquote>
+<p><strong>Original</strong>: Pages 64–66 in Satterfield translation<br />
+<strong>Musical Examples</strong>: Examples 358–370 in Volume 2</p>
+</blockquote>
+<h2 id="overview"><a class="header" href="#overview">Overview</a></h2>
+<p>Chapter XVII addresses the practical question of how Messiaen's modes of limited transpositions interact with traditional tonality and with each other. Despite their symmetrical properties and existence "in the atmosphere of several tonalities at once," these modes can be employed to suggest specific tonal centers through emphasis of particular pitches or through mixing with traditional tonal materials. The chapter demonstrates three types of modal relationships: mixing modes with major tonality, modulation of a mode to itself (changing transposition levels), and modulation from one mode to another. Throughout, Messiaen emphasizes that examples use the chosen mode melodically and harmonically with all notes belonging to the mode, while carefully indicating changes of mode and notes foreign to the mode. The chapter reveals the flexibility of modal practice—modes can function both as autonomous harmonic systems and as elements within larger tonal or multi-modal contexts.</p>
+<h2 id="key-concepts"><a class="header" href="#key-concepts">Key Concepts</a></h2>
+<h3 id="relation-to-the-major-tonality"><a class="header" href="#relation-to-the-major-tonality">Relation to the Major Tonality</a></h3>
+<p><strong>Definition</strong>: The technique of combining modes of limited transpositions with traditional major-key tonality, either by emphasizing tonal implications inherent within the mode or by mixing modal and non-modal materials to create tonal orientation while preserving modal coloring.</p>
+<p><strong>Messiaen's Treatment</strong>: Messiaen reiterates that the modes exist "in the atmosphere of several tonalities at once, without polytonality, the composer being free to give predominance to one of the tonalities or to leave the tonal impression unsettled." Mode 2 in its first transposition (Example 358) can hesitate among the four major tonalities of C, E-flat, F-sharp, and A. Example 359 demonstrates use of this tonal indecision of Mode 2 (same transposition), quoting only the violoncello song and chords while omitting the piano's accompaniment formula. The passage does not leave the mode's notes; three stops on the six-four chords of A, F-sharp, and E-flat major accentuate the unsettledness.</p>
+<p>By frequent return of the tonic of the chosen key or by use of the dominant seventh chord in that key (this last means being most efficacious), Messiaen shows how to mix the mode with major tonality (Example 360). This example, written entirely in Mode 2, third transposition, remains in B major, with the holding of B in the bass strongly establishing the tonality (the slurs between common notes concern execution on the organ). In the following paragraph, Example 363 (<em>le Banquet céleste</em>) will demonstrate that nothing is as valuable as the dominant seventh for affirming tonality.</p>
+<p>Messiaen also shows how to mix modes with tonalities whose tonics do not appear in the notes of the chosen mode (Example 361). The song of the first two measures uses Mode 2, third transposition; the notes e' and g' (tonic and third) that accompany it do not belong to the mode. Measure X uses Mode 3, second transposition; its expressive and profoundly grievous effort soothes itself on the fifth (b' to f-sharp'), dominant of E, creating tonal impression of E minor. In the same order of ideas, Example 362 presents a small fragment in Mode 2, third transposition, with the b-flat (upper staff) excepted, superposed upon chords made of perfect fourths foreign to the mode (lower staff).</p>
+<p><strong>Modern Context</strong>: This approach reveals Messiaen's pragmatic flexibility regarding modal purity. While the modes theoretically exist outside traditional tonal systems, practical composition often benefits from suggesting tonal orientation to provide listeners with perceptual anchors. Contemporary neo-Riemannian theory would describe some of these techniques as maximizing common-tone relationships between modal and tonal collections—the octatonic collection shares significant pitch-class content with multiple major and minor keys, allowing smooth voice-leading connections. The emphasis on the dominant seventh chord as the most effective tool for tonal affirmation reflects traditional tonal practice, where the V7–I progression serves as the strongest cadential gesture. Messiaen's willingness to mix modal and non-modal materials anticipates later practices in jazz (where modal and tonal elements freely combine) and in film music (where composers regularly blend modal colors with functional harmony to achieve specific dramatic effects). The technique also demonstrates that Messiaen's modes function as compositional resources rather than rigid systems—they can be deployed flexibly according to expressive and formal needs.</p>
+<p><strong>Examples</strong>: Examples 358–362</p>
+<hr />
+<h3 id="modulation-of-a-mode-to-itself"><a class="header" href="#modulation-of-a-mode-to-itself">Modulation of a Mode to Itself</a></h3>
+<p><strong>Definition</strong>: The technique of changing transposition levels within a single mode, creating harmonic motion while maintaining the mode's characteristic intervallic structure and sonority. This process functions analogically to traditional modulation between keys but operates within the constraints of symmetrical pitch collections.</p>
+<p><strong>Messiaen's Treatment</strong>: Messiaen explains that modes can modulate to themselves or borrow from themselves in their different transpositions. Example 137 from Chapter XI (<em>Les Offrandes oubliées</em>), in which Mode 2 borrows from itself in almost every chord, bears witness to this technique. Example 363 demonstrates another instance: the first measure contains the dominant seventh of F-sharp major in Mode 2, second transposition (Example 364); the second measure presents the perfect chord of F-sharp major in Mode 2, first transposition (Example 365). The e-sharp in the second measure does not belong to the mode, creating very intense tonal impression of F-sharp major and modulation of the mode to itself without the tonality yielding. The pedal, played in droplet-like staccato, sounds an octave above the notation; the true bass is thus in the left hand.</p>
+<p>Example 366 provides a last example using exactly the same effect but in more striking fashion: at A, upper staff uses Mode 2, second transposition, with lower staff presenting third inversion of the dominant seventh chord of F-sharp major; at B, upper staff uses Mode 2, first transposition, with lower staff presenting first inversion of the perfect chord of F-sharp major.</p>
+<p><strong>Modern Context</strong>: This technique parallels what contemporary theory might call "transposition within a pitch-class set" or "rotational transformation." However, Messiaen's approach emphasizes perceptual continuity—the mode's characteristic sound remains recognizable despite transposition, while the change of pitch level creates a sense of harmonic motion analogous to traditional modulation. In jazz theory, similar techniques appear when improvisers or arrangers transpose octatonic or other symmetrical collections to create harmonic progression while maintaining modal consistency. The concept also relates to what theorists call "hexatonic" or "octatonic cycles," where systematically transposing symmetrical collections creates networks of harmonic relationships. Messiaen's specific examples show how modal transposition can be coordinated with traditional tonal materials (dominant seventh chords, perfect triads) to create hybrid harmonic progressions that combine modal color with tonal direction. The technical challenge lies in managing the transition between transposition levels—since the modes contain only certain pitch classes, moving from one transposition to another necessarily involves changing some pitches, and Messiaen demonstrates how to make these changes feel natural rather than disruptive. The pedal-point technique (sustained or reiterated bass) helps smooth these transitions by providing continuous tonal orientation even as upper voices change modal transposition.</p>
+<p><strong>Examples</strong>: Examples 363–366 (with reference to Example 137 from Chapter XI)</p>
+<hr />
+<h3 id="modulation-of-a-mode-to-another-mode"><a class="header" href="#modulation-of-a-mode-to-another-mode">Modulation of a Mode to Another Mode</a></h3>
+<p><strong>Definition</strong>: The technique of moving from one mode of limited transpositions to a different mode, creating large-scale harmonic transformation while maintaining the principle of symmetrical pitch organization. This process allows composers to access different harmonic colors and intervallic structures while remaining within the modal system.</p>
+<p><strong>Messiaen's Treatment</strong>: Messiaen demonstrates modulation from the third mode to the second mode (Example 367): at A, third mode in fourth transposition; at B, second mode in first transposition; at C, major tonality; at D, third mode. General impression of G major arises from frequent return of the tonic G and from the dominant seventh at letter C.</p>
+<p>Example 368 shows modulation from the second mode to the third mode: from A to C, second mode in first transposition; at B, cadence formula of this mode (referencing Chapter XVI, Example 321); at C, third mode in first transposition; at D, second mode in second transposition.</p>
+<p>Example 369 presents alternation of the third mode and the second mode in progression. At A, third mode; at B, second mode; at C, third mode; at D, second mode. At E, second mode transposed; at F, another transposition of the second mode.</p>
+<p>Example 370 demonstrates modulation from Mode 2 to Modes 6 and 4. Melodic contours resemble Mozart. The harmonies of the lower staff are simple and tonal; the modes mingled there suffice to communicate infinite tenderness and divine love. The numerals indicate the modes: moving successively through Mode 2 (third transposition), Mode 2 (second transposition), Mode 6, Mode 2, Mode 6, Mode 2 (second transposition), Mode 2 (first transposition), Mode 4, Mode 2 (second, then third, then second transpositions). It is evident that the passage remains in G major.</p>
+<p><strong>Modern Context</strong>: Inter-modal modulation represents sophisticated harmonic practice, requiring careful voice-leading to manage transitions between collections with different intervallic structures and pitch-class content. Contemporary set theory would analyze these modulations by examining common-tone relationships and voice-leading efficiency between the source and target collections. Some mode pairs share significant pitch-class overlap (for instance, certain transpositions of Mode 2 and Mode 3 might share multiple pitches), facilitating smooth transitions. Other combinations require more dramatic harmonic shifts.</p>
+<p>The integration of multiple modes within a single passage (as in Example 370) creates what later theorists might call "patchwork" or "mosaic" form—sections using different harmonic materials juxtaposed to create larger structures. However, Messiaen maintains that these passages can still project clear tonal orientation (Example 370 "is evident that we are in G major") through strategic emphasis of tonal centers and use of traditional harmonic functions. This demonstrates the compatibility of modal and tonal thinking in Messiaen's practice—modes provide harmonic color and intervallic interest, while tonal principles provide large-scale orientation and structural coherence.</p>
+<p>The comparison to Mozart in Example 370 is particularly revealing—Messiaen suggests that Classical-era melodic fluency and simplicity can be achieved using modal harmonies, provided the modes are deployed with sensitivity to voice-leading and tonal implication. This contradicts potential assumptions that modal harmony necessarily produces modernist, dissonant, or anti-traditional effects. Instead, Messiaen demonstrates that modes can serve expressive goals (communicating "infinite tenderness and divine love") traditionally associated with tonal music, offering composers expanded harmonic resources without requiring abandonment of expressive clarity or melodic grace.</p>
+<p><strong>Examples</strong>: Examples 367–370</p>
+<h2 id="relationship-to-other-chapters"><a class="header" href="#relationship-to-other-chapters">Relationship to Other Chapters</a></h2>
+<p>Chapter XVII directly extends the theoretical foundation established in Chapter XVI, demonstrating practical applications of the modes in contexts requiring tonal orientation or modal variety. The mixing of modes with major tonality connects to discussions of added notes (Chapter XIII) and special chords (Chapter XIV), showing how modal and tonal materials can be combined within single passages. The modulation techniques relate to the "list of connections of chords" in Chapter XIV, paragraph 8, providing additional strategies for harmonic progression. The chapter anticipates Chapter XVIII's discussion of the modes' relationship to various contemporary harmonic systems (modal, atonal, polytonal) and Chapter XIX's systematic treatment of polymodality, where multiple modes operate simultaneously. References to <em>le Banquet céleste</em> (Example 363) and <em>Les Offrandes oubliées</em> (Example 137) demonstrate how these modulation techniques function in actual compositions. The flexibility demonstrated here—modes as both autonomous systems and elements within tonal contexts—reflects the broader aesthetic principle articulated in Chapter I, where Messiaen advocates for technical resources that serve rather than dictate expressive intentions.</p>
+<h2 id="summary"><a class="header" href="#summary">Summary</a></h2>
+<p>Chapter XVII demonstrates the practical flexibility of Messiaen's modes of limited transpositions through three types of modal relationships: mixing modes with major tonality, modulating a mode to itself through transposition changes, and modulating between different modes. Despite their symmetrical properties and theoretical existence outside traditional tonality, the modes can suggest specific tonal centers through emphasis of particular pitches, use of traditional harmonic functions (especially dominant seventh chords), or mixture with non-modal materials. The chapter reveals that modal practice in Messiaen's hands remains pragmatic rather than dogmatic—modes function as harmonic resources that can be deployed in various contexts according to compositional needs, whether to provide coloristic enrichment within tonal frameworks, to create harmonic motion through transposition, or to access diverse harmonic palettes through inter-modal modulation. This flexibility distinguishes Messiaen's modal practice from more rigid systematic approaches, allowing the modes to serve expressive and formal goals while maintaining their characteristic symmetrical properties and distinctive sonorities.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../part2/03-harmony/ch16-modes.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../part2/03-harmony/ch18-modal-relations.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../part2/03-harmony/ch16-modes.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../part2/03-harmony/ch18-modal-relations.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

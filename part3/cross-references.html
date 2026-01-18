@@ -1,0 +1,448 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Cross-Reference Tables - The Technique of My Musical Language: A Modern Companion</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A scholarly companion to Olivier Messiaen&#x27;s La technique de mon langage musical (1944), in the English translation by John Satterfield (1956).">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Technique of My Musical Language: A Modern Companion</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc/edit/main/src/part3/cross-references.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="cross-reference-tables"><a class="header" href="#cross-reference-tables">Cross-Reference Tables</a></h1>
+<p>This section maps the interconnections across Messiaen's system—the parametric analogies, technique clusters, and conceptual threads that unify rhythm, melody, and harmony.</p>
+<hr />
+<h2 id="the-fundamental-analogy-symmetry-across-parameters"><a class="header" href="#the-fundamental-analogy-symmetry-across-parameters">The Fundamental Analogy: Symmetry Across Parameters</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Rhythm (Horizontal)</th><th>Harmony (Vertical)</th><th>Shared Principle</th></tr></thead><tbody>
+<tr><td>Nonretrogradable rhythms (Ch. V)</td><td>Modes of limited transposition (Ch. XVI)</td><td>Symmetry creates "impossibility"</td></tr>
+<tr><td>Added values (Ch. III)</td><td>Added notes (Ch. XIII)</td><td>Enrichment through supplementation</td></tr>
+<tr><td>Polyrhythm (Ch. VI)</td><td>Polymodality (Ch. XIX)</td><td>Independence of simultaneous layers</td></tr>
+<tr><td>Rhythmic pedal (Ch. VI)</td><td>Pedal group (Ch. XV)</td><td>Repetition as structural anchor</td></tr>
+</tbody></table>
+</div>
+<p><strong>The "Charm of Impossibilities"</strong> (Ch. I) unifies all:</p>
+<ul>
+<li>Nonretrogradable rhythms → "unity of movement" (beginning and end identical)</li>
+<li>Limited transposition modes → "tonal ubiquity" (multiple tonalities at once)</li>
+<li>Both → "theological rainbow" pointing toward transcendence</li>
+</ul>
+<hr />
+<h2 id="technique-families"><a class="header" href="#technique-families">Technique Families</a></h2>
+<h3 id="the-addedsupplementary-family"><a class="header" href="#the-addedsupplementary-family">The Added/Supplementary Family</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Technique</th><th>Domain</th><th>Chapter</th><th>Effect</th></tr></thead><tbody>
+<tr><td>Added value</td><td>Rhythm</td><td>III</td><td>Metric displacement, "delicious limping"</td></tr>
+<tr><td>Added note</td><td>Harmony</td><td>XIII</td><td>Harmonic enrichment, color</td></tr>
+<tr><td>Dot addition</td><td>Rhythm</td><td>IV</td><td>1.5× augmentation</td></tr>
+<tr><td>Added sixth</td><td>Harmony</td><td>XIII</td><td>Characteristic Debussy sonority</td></tr>
+<tr><td>Added aug. fourth</td><td>Harmony</td><td>XIII</td><td>Mode 2 chord color</td></tr>
+</tbody></table>
+</div>
+<p><strong>Shared aesthetic</strong>: "Somewhat perverse charm" of foreign elements that enrich without destroying identity.</p>
+<h3 id="the-symmetry-family"><a class="header" href="#the-symmetry-family">The Symmetry Family</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Technique</th><th>Domain</th><th>Chapter</th><th>Symmetry Type</th></tr></thead><tbody>
+<tr><td>Nonretrogradable rhythm</td><td>Rhythm</td><td>V</td><td>Temporal palindrome</td></tr>
+<tr><td>Mode of limited transposition</td><td>Harmony</td><td>XVI</td><td>Pitch-class invariance</td></tr>
+<tr><td>Central common value</td><td>Rhythm</td><td>V</td><td>Axis of reflection</td></tr>
+<tr><td>Ternary sentence</td><td>Form</td><td>XI</td><td>Formal arch (ABCBA)</td></tr>
+</tbody></table>
+</div>
+<p><strong>Shared property</strong>: Structure reads same in multiple directions or positions.</p>
+<h3 id="the-enlargement-family"><a class="header" href="#the-enlargement-family">The Enlargement Family</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Original</th><th>Enlarged Form</th><th>Chapter</th></tr></thead><tbody>
+<tr><td>Pedal tone</td><td>Pedal group</td><td>XV</td></tr>
+<tr><td>Passing tone</td><td>Passing group</td><td>XV</td></tr>
+<tr><td>Embellishment</td><td>Embellishment group</td><td>XV</td></tr>
+<tr><td>Appoggiatura</td><td>Upbeat-accent-termination</td><td>XV</td></tr>
+</tbody></table>
+</div>
+<p><strong>Shared principle</strong>: Single-note phenomena become complete musical structures.</p>
+<hr />
+<h2 id="source-material--technique-derivations"><a class="header" href="#source-material--technique-derivations">Source Material → Technique Derivations</a></h2>
+<h3 id="from-rāgavardhana-ch-ii"><a class="header" href="#from-rāgavardhana-ch-ii">From Rāgavardhana (Ch. II):</a></h3>
+<pre><code>Hindu rhythm analysis
+    ├── Added values (Ch. III)
+    ├── Inexact augmentation (Ch. IV)
+    └── Nonretrogradable rhythms (Ch. V)
+</code></pre>
+<h3 id="from-debussy-ch-xiii-xiv"><a class="header" href="#from-debussy-ch-xiii-xiv">From Debussy (Ch. XIII, XIV):</a></h3>
+<pre><code>Impressionist harmony
+    ├── Added notes
+    ├── Added sixth chord
+    ├── Whole-tone scale (Mode 1)
+    └── Stained-glass window effect
+</code></pre>
+<h3 id="from-plainchant-ch-xii"><a class="header" href="#from-plainchant-ch-xii">From Plainchant (Ch. XII):</a></h3>
+<pre><code>Liturgical chant
+    ├── Anthem forms
+    ├── Alleluia/vocalise
+    ├── Kyrie structure (3×3)
+    ├── Sequence form
+    └── Psalmody
+</code></pre>
+<h3 id="from-bird-song-ch-ix"><a class="header" href="#from-bird-song-ch-ix">From Bird Song (Ch. IX):</a></h3>
+<pre><code>Avian vocalization
+    ├── Rhythmic freedom
+    ├── Melodic unpredictability
+    ├── Ornamental density
+    └── Registral extremes
+</code></pre>
+<hr />
+<h2 id="formal-structures-by-type"><a class="header" href="#formal-structures-by-type">Formal Structures by Type</a></h2>
+<h3 id="development-based-forms-ch-xii"><a class="header" href="#development-based-forms-ch-xii">Development-Based Forms (Ch. XII)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Form</th><th>Structure</th><th>Key Technique</th></tr></thead><tbody>
+<tr><td>Terminal development</td><td>Build to climax over pedals</td><td>Elimination, amplification</td></tr>
+<tr><td>Three-theme development</td><td>Themes → final theme emerges</td><td>Teleological form</td></tr>
+<tr><td>Theme 1 variations + Theme 2 developments</td><td>Alternating structure</td><td>Developmental contrast</td></tr>
+</tbody></table>
+</div>
+<h3 id="plainchant-derived-forms-ch-xii"><a class="header" href="#plainchant-derived-forms-ch-xii">Plainchant-Derived Forms (Ch. XII)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Form</th><th>Structure</th><th>Liturgical Origin</th></tr></thead><tbody>
+<tr><td>Anthem</td><td>Refrain alternating with verses</td><td>Antiphonal psalmody</td></tr>
+<tr><td>Alleluia</td><td>Intonation + jubilus + verse</td><td>Mass Proper</td></tr>
+<tr><td>Psalmody</td><td>Reciting tone + cadence</td><td>Office psalmody</td></tr>
+<tr><td>Kyrie</td><td>3×3 invocations</td><td>Mass Ordinary</td></tr>
+<tr><td>Sequence</td><td>Paired strophes, same final</td><td>Medieval sequence</td></tr>
+</tbody></table>
+</div>
+<h3 id="sentence-types-ch-xi"><a class="header" href="#sentence-types-ch-xi">Sentence Types (Ch. XI)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Type</th><th>Pattern</th><th>Periods</th></tr></thead><tbody>
+<tr><td>Song-sentence</td><td>ABA'</td><td>3 (theme, middle, final)</td></tr>
+<tr><td>Binary</td><td>ABAB'</td><td>4 (theme, commentary alternation)</td></tr>
+<tr><td>Ternary</td><td>ABCBA</td><td>5 (arch form)</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="chord--mode-connections"><a class="header" href="#chord--mode-connections">Chord ↔ Mode Connections</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Chord Type</th><th>Source Mode</th><th>Chapter</th></tr></thead><tbody>
+<tr><td>Added sixth + aug. fourth</td><td>Mode 2</td><td>XIII, XIV, XVI</td></tr>
+<tr><td>Chord of resonance</td><td>Mode 3</td><td>XIV, XVI</td></tr>
+<tr><td>Chord in fourths</td><td>Mode 5</td><td>XIV, XVI</td></tr>
+<tr><td>Dominant with all scale tones</td><td>Diatonic (not a mode)</td><td>XIV</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="rhythmic-transformation-taxonomy"><a class="header" href="#rhythmic-transformation-taxonomy">Rhythmic Transformation Taxonomy</a></h2>
+<h3 id="proportional-preserves-ratios"><a class="header" href="#proportional-preserves-ratios">Proportional (Preserves Ratios)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Operation</th><th>Factor</th><th>Chapter</th></tr></thead><tbody>
+<tr><td>Classical augmentation</td><td>2×</td><td>IV</td></tr>
+<tr><td>Classical diminution</td><td>0.5×</td><td>IV</td></tr>
+<tr><td>Triple augmentation</td><td>3×</td><td>IV</td></tr>
+<tr><td>Quadruple augmentation</td><td>4×</td><td>IV</td></tr>
+</tbody></table>
+</div>
+<h3 id="non-proportional-alters-ratios"><a class="header" href="#non-proportional-alters-ratios">Non-Proportional (Alters Ratios)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Operation</th><th>Effect</th><th>Chapter</th></tr></thead><tbody>
+<tr><td>Added note</td><td>+1 small value</td><td>III</td></tr>
+<tr><td>Added rest</td><td>+1 small rest</td><td>III</td></tr>
+<tr><td>Added dot</td><td>+0.5 original</td><td>III, IV</td></tr>
+<tr><td>Dot withdrawal</td><td>−0.33 original</td><td>IV</td></tr>
+</tbody></table>
+</div>
+<h3 id="hybrid-combines-both"><a class="header" href="#hybrid-combines-both">Hybrid (Combines Both)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Operation</th><th>Components</th><th>Chapter</th></tr></thead><tbody>
+<tr><td>Inexact augmentation</td><td>Different rates per layer</td><td>IV</td></tr>
+<tr><td>Augmentation + added value</td><td>Proportional + non-proportional</td><td>IV</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="melodic-development-operations"><a class="header" href="#melodic-development-operations">Melodic Development Operations</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Operation</th><th>Effect</th><th>Historical Model</th><th>Chapter</th></tr></thead><tbody>
+<tr><td>Elimination</td><td>Progressive reduction</td><td>Beethoven 5th Symphony</td><td>X</td></tr>
+<tr><td>Interversion</td><td>Pitch reordering</td><td>Dupré improvisation</td><td>X</td></tr>
+<tr><td>Registral change</td><td>Octave displacement</td><td>Berg <em>Lyric Suite</em></td><td>X</td></tr>
+<tr><td>Contrary motion</td><td>Melodic inversion</td><td>Traditional counterpoint</td><td>VIII</td></tr>
+<tr><td>Retrograde</td><td>Temporal reversal</td><td>Traditional counterpoint</td><td>V, VIII</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="polyrhythmic-textures-ch-vi"><a class="header" href="#polyrhythmic-textures-ch-vi">Polyrhythmic Textures (Ch. VI)</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Type</th><th>Layers</th><th>Result</th></tr></thead><tbody>
+<tr><td>Unequal lengths</td><td>Different periods</td><td>Phasing until realignment</td></tr>
+<tr><td>Different augmentations</td><td>Same rhythm, different rates</td><td>Tempo stratification</td></tr>
+<tr><td>Rhythm + retrograde</td><td>Forward + backward</td><td>Mirror counterpoint</td></tr>
+<tr><td>Rhythmic canon</td><td>Staggered entries</td><td>Imitative texture</td></tr>
+<tr><td>Canon by dot addition</td><td>Following voice dotted</td><td>1.5× stretching</td></tr>
+<tr><td>Canon of nonretrogradables</td><td>Palindromic entries</td><td>Symmetrical canon</td></tr>
+<tr><td>Rhythmic pedal</td><td>Ostinato layer</td><td>Temporal anchor</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="the-theological-rainbow-spiritual-associations"><a class="header" href="#the-theological-rainbow-spiritual-associations">The Theological Rainbow: Spiritual Associations</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Technique</th><th>Spiritual Meaning</th></tr></thead><tbody>
+<tr><td>Nonretrogradable rhythm</td><td>Eternity (no beginning/end distinction)</td></tr>
+<tr><td>Modes of limited transposition</td><td>Divine presence in multiple "tonalities"</td></tr>
+<tr><td>Symmetry</td><td>Divine order, perfection</td></tr>
+<tr><td>Bird song</td><td>"Servants of immaterial joy"</td></tr>
+<tr><td>Alleluia/vocalise</td><td>Sacred jubilation</td></tr>
+<tr><td>Kyrie (3×3)</td><td>Trinity</td></tr>
+<tr><td>Stained-glass window effect</td><td>Cathedral light, sacred space</td></tr>
+<tr><td>Natural harmony</td><td>Pre-existent in divine creation</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="chapter-dependency-map"><a class="header" href="#chapter-dependency-map">Chapter Dependency Map</a></h2>
+<pre><code>Ch. I: Aesthetic Foundation
+    ↓
+Ch. II–VII: RHYTHM                    Ch. VIII–XII: MELODY
+    II: Hindu source                      VIII: Intervals, contours
+    III: Added values ←──────────────→    XIII: Added notes
+    IV: Augmentation/diminution           IX: Bird song
+    V: Nonretrogradable ←────────────→    XVI: Limited transposition
+    VI: Polyrhythm ←─────────────────→    XIX: Polymodality
+    VII: Notation
+                                          X: Development
+                                          XI: Sentences
+                                          XII: Forms
+                            ↓
+                    Ch. XIII–XIX: HARMONY
+                        XIII: Added notes
+                        XIV: Special chords
+                        XV: Enlargement
+                        XVI: Modes (KEYSTONE)
+                        XVII: Modal modulation
+                        XVIII: Relations to other systems
+                        XIX: Polymodality (CULMINATION)
+</code></pre>
+<hr />
+<h2 id="quick-lookup-what-chapter-covers"><a class="header" href="#quick-lookup-what-chapter-covers">Quick Lookup: "What Chapter Covers...?"</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Topic</th><th>Primary Chapter</th><th>Related Chapters</th></tr></thead><tbody>
+<tr><td>Rhythm basics</td><td>II, III</td><td>IV, V, VI, VII</td></tr>
+<tr><td>Polyrhythm</td><td>VI</td><td>III, IV, V</td></tr>
+<tr><td>Melodic intervals</td><td>VIII</td><td>X</td></tr>
+<tr><td>Bird song</td><td>IX</td><td>VIII</td></tr>
+<tr><td>Development techniques</td><td>X</td><td>VIII, XI</td></tr>
+<tr><td>Phrase/sentence structure</td><td>XI</td><td>XII</td></tr>
+<tr><td>Large forms</td><td>XII</td><td>XI</td></tr>
+<tr><td>Debussy's influence</td><td>XIII</td><td>VIII, XIV</td></tr>
+<tr><td>Chords</td><td>XIV</td><td>XIII, XVI</td></tr>
+<tr><td>Dissonance/foreign notes</td><td>XV</td><td>XIII, XIV</td></tr>
+<tr><td>Modes</td><td>XVI</td><td>XVII, XVIII, XIX</td></tr>
+<tr><td>Mixing modes with tonality</td><td>XVII</td><td>XVI, XVIII</td></tr>
+<tr><td>Modes vs. other systems</td><td>XVIII</td><td>XVI, XVII</td></tr>
+<tr><td>Polymodality</td><td>XIX</td><td>VI, XVI, XVII</td></tr>
+</tbody></table>
+</div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../part3/modes-quick-ref.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../part4/workbook.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../part3/modes-quick-ref.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../part4/workbook.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

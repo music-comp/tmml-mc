@@ -1,0 +1,393 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Modes of Limited Transposition: Quick Reference - The Technique of My Musical Language: A Modern Companion</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A scholarly companion to Olivier Messiaen&#x27;s La technique de mon langage musical (1944), in the English translation by John Satterfield (1956).">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Technique of My Musical Language: A Modern Companion</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc/edit/main/src/part3/modes-quick-ref.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="modes-of-limited-transpositions-quick-reference"><a class="header" href="#modes-of-limited-transpositions-quick-reference">Modes of Limited Transpositions: Quick Reference</a></h1>
+<h2 id="overview"><a class="header" href="#overview">Overview</a></h2>
+<p>The seven modes of limited transpositions are symmetrical pitch collections that cannot be transposed beyond a certain number of times without reproducing their original pitch content. This "impossibility" of unlimited transposition creates their distinctive harmonic character—existing "in the atmosphere of several tonalities at once, without polytonality."</p>
+<hr />
+<h2 id="mode-1-whole-tone-scale"><a class="header" href="#mode-1-whole-tone-scale">Mode 1: Whole-Tone Scale</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody>
+<tr><td><strong>Pitch count</strong></td><td>6</td></tr>
+<tr><td><strong>Transpositions</strong></td><td>2</td></tr>
+<tr><td><strong>Interval pattern</strong></td><td>Tone–Tone–Tone–Tone–Tone–Tone</td></tr>
+<tr><td><strong>Set class</strong></td><td>6-35 [02468T]</td></tr>
+</tbody></table>
+</div>
+<p><strong>Character</strong>: Maximum symmetry; divides octave into six equal parts. Creates ambiguous, floating harmonies lacking perfect fifths.</p>
+<p><strong>Messiaen's assessment</strong>: "Exhausted" by Debussy and Dukas; Messiaen avoids except when concealed in polymodal superpositions.</p>
+<p><strong>Associated chord</strong>: Augmented triad</p>
+<hr />
+<h2 id="mode-2-octatonic-scale"><a class="header" href="#mode-2-octatonic-scale">Mode 2: Octatonic Scale</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody>
+<tr><td><strong>Pitch count</strong></td><td>8</td></tr>
+<tr><td><strong>Transpositions</strong></td><td>3</td></tr>
+<tr><td><strong>Interval pattern</strong></td><td>Semitone–Tone–Semitone–Tone–Semitone–Tone–Semitone–Tone</td></tr>
+<tr><td><strong>Set class</strong></td><td>8-28 [0134679T]</td></tr>
+</tbody></table>
+</div>
+<p><strong>Three transpositions:</strong></p>
+<ol>
+<li>C–C♯–D♯–E–F♯–G–A–B♭</li>
+<li>C♯–D–E–F–G–A♭–B♭–B</li>
+<li>D–E♭–F–F♯–A♭–A–B–C</li>
+</ol>
+<p><strong>Character</strong>: The most frequently used mode. Suggests four major/minor tonalities simultaneously (in transposition 1: C, E♭, F♯, A). Rich in tritones and minor thirds.</p>
+<p><strong>Associated chord</strong>: Perfect chord with added sixth and augmented fourth (the characteristic Messiaen sonority)</p>
+<p><strong>Tonal implications</strong>: Each transposition contains four diminished seventh chords, suggesting four major and four minor keys.</p>
+<hr />
+<h2 id="mode-3"><a class="header" href="#mode-3">Mode 3</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody>
+<tr><td><strong>Pitch count</strong></td><td>9</td></tr>
+<tr><td><strong>Transpositions</strong></td><td>4</td></tr>
+<tr><td><strong>Interval pattern</strong></td><td>Tone–Semitone–Semitone (repeated 3×)</td></tr>
+<tr><td><strong>Set class</strong></td><td>9-12 [01245689T]</td></tr>
+</tbody></table>
+</div>
+<p><strong>Four transpositions:</strong></p>
+<ol>
+<li>C–D–E♭–E–F♯–G–A♭–B♭–B</li>
+<li>C♯–D♯–E–F–G–A♭–A–B–C</li>
+<li>D–E–F–F♯–G♯–A–B♭–C–C♯</li>
+<li>E♭–F–F♯–G–A–B♭–B–C♯–D</li>
+</ol>
+<p><strong>Character</strong>: Approaches chromatic saturation (9 of 12 pitches) while maintaining modal identity through characteristic gaps.</p>
+<p><strong>Associated chord</strong>: Chord of resonance (derived from overtone series)</p>
+<hr />
+<h2 id="mode-4"><a class="header" href="#mode-4">Mode 4</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody>
+<tr><td><strong>Pitch count</strong></td><td>8</td></tr>
+<tr><td><strong>Transpositions</strong></td><td>6</td></tr>
+<tr><td><strong>Interval pattern</strong></td><td>Semitone–Semitone–Minor 3rd–Semitone (repeated 2×)</td></tr>
+<tr><td><strong>Set class</strong></td><td>8-9 [01236789]</td></tr>
+</tbody></table>
+</div>
+<p><strong>Character</strong>: One of the "lesser interest" modes due to greater transposability. Contains characteristic minor third gaps.</p>
+<p><strong>Usage</strong>: Messiaen employs sparingly; appears in specific coloristic contexts.</p>
+<hr />
+<h2 id="mode-5"><a class="header" href="#mode-5">Mode 5</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody>
+<tr><td><strong>Pitch count</strong></td><td>6</td></tr>
+<tr><td><strong>Transpositions</strong></td><td>6</td></tr>
+<tr><td><strong>Interval pattern</strong></td><td>Semitone–Major 3rd–Semitone (repeated 2×)</td></tr>
+<tr><td><strong>Set class</strong></td><td>6-7 [012678]</td></tr>
+</tbody></table>
+</div>
+<p><strong>Character</strong>: Distinctive major-third gaps create ambiguity between major and minor.</p>
+<p><strong>Associated chord</strong>: Chord in fourths (quartal harmony)</p>
+<p><strong>Associated melodic formula</strong>: Specific contour connected to this mode (discussed in Ch. X)</p>
+<hr />
+<h2 id="mode-6"><a class="header" href="#mode-6">Mode 6</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody>
+<tr><td><strong>Pitch count</strong></td><td>8</td></tr>
+<tr><td><strong>Transpositions</strong></td><td>6</td></tr>
+<tr><td><strong>Interval pattern</strong></td><td>Tone–Tone–Semitone–Semitone (repeated 2×)</td></tr>
+<tr><td><strong>Set class</strong></td><td>8-25 [0124678T]</td></tr>
+</tbody></table>
+</div>
+<p><strong>Character</strong>: Contains two tritones; creates whole-tone segments interrupted by semitone clusters.</p>
+<p><strong>Usage</strong>: Appears in <em>Les Bergers</em> and <em>La Vierge et l'Enfant</em> from <em>La Nativité du Seigneur</em>.</p>
+<hr />
+<h2 id="mode-7"><a class="header" href="#mode-7">Mode 7</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody>
+<tr><td><strong>Pitch count</strong></td><td>10</td></tr>
+<tr><td><strong>Transpositions</strong></td><td>6</td></tr>
+<tr><td><strong>Interval pattern</strong></td><td>Semitone–Semitone–Semitone–Tone–Semitone (repeated 2×)</td></tr>
+<tr><td><strong>Set class</strong></td><td>10-6 [012346789T]</td></tr>
+</tbody></table>
+</div>
+<p><strong>Character</strong>: Near-chromatic (10 of 12 pitches); most pitches of any mode. Minimal gaps create subtle coloring.</p>
+<p><strong>Usage</strong>: Used in specific passages; referenced in Ch. XIV examples.</p>
+<hr />
+<h2 id="comparative-table"><a class="header" href="#comparative-table">Comparative Table</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Mode</th><th>Pitches</th><th>Transpositions</th><th>Intervals per group</th><th>Messiaen's "Interest"</th></tr></thead><tbody>
+<tr><td>1</td><td>6</td><td>2</td><td>6 tones</td><td>Low (exhausted)</td></tr>
+<tr><td>2</td><td>8</td><td>3</td><td>S–T–S–T</td><td><strong>High</strong> (most used)</td></tr>
+<tr><td>3</td><td>9</td><td>4</td><td>T–S–S</td><td><strong>High</strong></td></tr>
+<tr><td>4</td><td>8</td><td>6</td><td>S–S–m3–S</td><td>Moderate</td></tr>
+<tr><td>5</td><td>6</td><td>6</td><td>S–M3–S</td><td>Moderate</td></tr>
+<tr><td>6</td><td>8</td><td>6</td><td>T–T–S–S</td><td>Moderate</td></tr>
+<tr><td>7</td><td>10</td><td>6</td><td>S–S–S–T–S</td><td>Moderate</td></tr>
+</tbody></table>
+</div>
+<p><em>S = Semitone, T = Tone, m3 = minor third, M3 = major third</em></p>
+<hr />
+<h2 id="the-symmetry-principle"><a class="header" href="#the-symmetry-principle">The Symmetry Principle</a></h2>
+<p>All modes share the defining property: <strong>internal symmetry creates transpositional limitation</strong>.</p>
+<ul>
+<li>Modes divide the octave into equal segments</li>
+<li>Each segment contains the same interval pattern</li>
+<li>After a certain number of transpositions, the same pitch-classes recur</li>
+</ul>
+<p>This connects to <strong>nonretrogradable rhythms</strong> (Ch. V):</p>
+<ul>
+<li>Modes: cannot transpose without repetition → "tonal ubiquity"</li>
+<li>Rhythms: cannot retrograde without identity → "unity of movement"</li>
+</ul>
+<p>Both embody the <strong>"charm of impossibilities"</strong>—structures whose mathematical properties create perceptual effects of suspension, timelessness, and transcendence.</p>
+<hr />
+<h2 id="practical-applications"><a class="header" href="#practical-applications">Practical Applications</a></h2>
+<h3 id="melodic-use"><a class="header" href="#melodic-use">Melodic Use</a></h3>
+<p>All pitches in a melodic line belong to the chosen mode. Characteristic intervals emerge naturally from modal content.</p>
+<h3 id="harmonic-use"><a class="header" href="#harmonic-use">Harmonic Use</a></h3>
+<p>All chord tones belong to the mode. Characteristic sonorities:</p>
+<ul>
+<li>Mode 2 → Added sixth + augmented fourth chord</li>
+<li>Mode 3 → Chord of resonance</li>
+<li>Mode 5 → Chord in fourths</li>
+</ul>
+<h3 id="modal-modulation-ch-xvii"><a class="header" href="#modal-modulation-ch-xvii">Modal Modulation (Ch. XVII)</a></h3>
+<ol>
+<li><strong>To same mode, different transposition</strong>: Shifts pitch content while maintaining modal character</li>
+<li><strong>To different mode</strong>: Changes intervallic structure and color</li>
+<li><strong>Mixing with tonality</strong>: Dominant seventh chords or tonic emphasis create tonal orientation within modal context</li>
+</ol>
+<h3 id="polymodality-ch-xix"><a class="header" href="#polymodality-ch-xix">Polymodality (Ch. XIX)</a></h3>
+<p>Superposing different modes in different textural layers:</p>
+<ul>
+<li>Two-mode combinations: foundational polymodal texture</li>
+<li>Three-mode combinations: maximum harmonic density</li>
+<li>Polymodal modulation: large-scale transformation of modal combinations</li>
+</ul>
+<hr />
+<h2 id="historical-note"><a class="header" href="#historical-note">Historical Note</a></h2>
+<p>Messiaen emphasizes these modes have <strong>nothing in common</strong> with:</p>
+<ul>
+<li>Indian modal systems (ragas)</li>
+<li>Chinese modal systems</li>
+<li>Greek modes</li>
+<li>Plainchant modes</li>
+</ul>
+<p>Those systems are all transposable twelve times within equal temperament. Messiaen's modes are defined precisely by their <em>limited</em> transposability—a fundamentally different organizational principle based on symmetry rather than scalar tradition.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../part3/harmony.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../part3/cross-references.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../part3/harmony.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../part3/cross-references.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

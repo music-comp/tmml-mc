@@ -1,0 +1,398 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Concept Index - The Technique of My Musical Language: A Modern Companion</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A scholarly companion to Olivier Messiaen&#x27;s La technique de mon langage musical (1944), in the English translation by John Satterfield (1956).">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Technique of My Musical Language: A Modern Companion</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc/edit/main/src/part3/concepts.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="concept-index"><a class="header" href="#concept-index">Concept Index</a></h1>
+<p>An alphabetical reference to key concepts in Messiaen's <em>Technique of My Musical Language</em>, with chapter locations.</p>
+<hr />
+<h2 id="a"><a class="header" href="#a">A</a></h2>
+<p><strong>Added Notes</strong> (<em>Notes Ajoutées</em>) — Ch. XIII
+: Pitches added to conventional chords that function as integral chord members rather than nonharmonic tones requiring resolution. The added sixth and added augmented fourth are the most characteristic. Debussy is credited with establishing these sonorities as structural elements.</p>
+<p><strong>Added Value</strong> (<em>Valeur Ajoutée</em>) — Ch. III
+: A short duration (note, rest, or dot) added to a rhythm, creating asymmetrical augmentation that disrupts metric regularity. The technique produces rhythmic patterns that suggest regularity while constantly evading it. Related conceptually to added notes (Ch. XIII).</p>
+<p><strong>Ametrical Music</strong> — Ch. II
+: Music organized by precise durational values rather than regular metric framework. Distinguished from "unmeasured"—ametrical music maintains exact rhythmic precision while avoiding periodic accent patterns.</p>
+<p><strong>Amplification</strong> — Ch. X
+: The developmental procedure opposite to elimination—building up material rather than reducing it.</p>
+<p><strong>Augmentation</strong> — Ch. IV
+: Proportional scaling of rhythmic values by multiplication. Classical augmentation doubles values (2×); Messiaen extends this to various ratios including dot addition (1.5×) and other fractions.</p>
+<hr />
+<h2 id="b"><a class="header" href="#b">B</a></h2>
+<p><strong>Binary Sentence</strong> — Ch. XI
+: Formal structure alternating theme (A) and commentary (B) in pattern ABAB', where commentary develops thematic fragments through rhythmic, melodic, and harmonic variation.</p>
+<p><strong>Bird Song</strong> (<em>Style Oiseau</em>) — Ch. IX
+: Compositional style inspired by avian vocalizations, characterized by rhythmic freedom, melodic unpredictability, ornamental density, and registral extremes. Messiaen emphasizes transformation and interpretation rather than literal transcription.</p>
+<hr />
+<h2 id="c"><a class="header" href="#c">C</a></h2>
+<p><strong>Central Common Value</strong> — Ch. V
+: The durational value or pitch-class functioning as pivot point in palindromic structures, connecting mirrored sections and serving as axis of symmetry.</p>
+<p><strong>Charm of Impossibilities</strong> (<em>Charme des Impossibilités</em>) — Ch. I, V, XVI
+: Messiaen's central aesthetic principle: musical pleasure derived from mathematical structures exhibiting internal symmetries that prevent certain transformations—modes that cannot be transposed beyond certain limits, rhythms that read identically forwards and backwards.</p>
+<p><strong>Chord in Fourths</strong> — Ch. XIV
+: Harmonic structure built from stacked perfect and augmented fourths, abandoning tertian construction. Contains all notes of Mode 5 of limited transpositions.</p>
+<p><strong>Chord of Resonance</strong> — Ch. XIV
+: Harmonic structure derived from the acoustically perceptible overtones of a low fundamental pitch. Connected to Mode 3 of limited transpositions.</p>
+<p><strong>Chord on the Dominant</strong> — Ch. XIV
+: Saturated harmonic structure containing all seven pitch-classes of the major scale, functioning as enriched dominant sonority. Subject to "stained-glass window" treatment through varied inversions.</p>
+<p><strong>Clusters of Chords</strong> — Ch. XIV
+: Resonance effects created by adding small chord groups above or below principal chords, creating harmonic halos. "Superior resonance" adds pitches above; "inferior resonance" adds pitches below.</p>
+<p><strong>Commentary</strong> — Ch. XI
+: Developmental section in sentence forms that varies thematic fragments through rhythmic, melodic, and harmonic transformation. Distinguished from theme by its developmental function.</p>
+<hr />
+<h2 id="d"><a class="header" href="#d">D</a></h2>
+<p><strong>Deforming Prism</strong> — Ch. VIII, XI
+: Messiaen's metaphor for the transformation process through which source materials (folk songs, plainchant, ragas, other composers' techniques) become unrecognizable while retaining structural principles.</p>
+<p><strong>Diminution</strong> — Ch. IV
+: Proportional scaling of rhythmic values by division. Classical diminution halves values; Messiaen extends to various ratios including dot withdrawal (×0.667).</p>
+<p><strong>Dot Addition/Withdrawal</strong> — Ch. IV
+: Hybrid transformation combining proportional scaling with added values. Adding dots creates 1.5× augmentation; removing dots creates ×0.667 diminution.</p>
+<hr />
+<h2 id="e"><a class="header" href="#e">E</a></h2>
+<p><strong>Elimination</strong> — Ch. X
+: Developmental procedure consisting of repeating a thematic fragment while progressively removing notes, concentrating material toward essential elements. Credited to Beethoven (Fifth Symphony).</p>
+<p><strong>Embellishment Group</strong> — Ch. XV
+: Complex ornamental gesture, often realized as extended scalar flourish, that elaborates a single structural pitch while functioning as complete musical unit. Distinguished from upbeat-accent-termination by absence of accent.</p>
+<p><strong>Enlargement</strong> — Ch. XV
+: The transformation of traditional single-note dissonances (pedals, passing notes, embellishments) into multi-note structures possessing their own internal rhythmic, harmonic, and melodic organization.</p>
+<hr />
+<h2 id="f"><a class="header" href="#f">F</a></h2>
+<p><strong>Fugue</strong> — Ch. XII
+: Traditional contrapuntal form from which Messiaen retains episode (canonic progression of harmony) and stretto (overlapping entries) while adapting to modal contexts.</p>
+<hr />
+<h2 id="g"><a class="header" href="#g">G</a></h2>
+<p><strong>Gathering into Meter</strong> — Ch. VI, VII
+: Notational practice of organizing ametric polyrhythmic music within conventional metric frameworks for performance practicality, despite contradicting the music's underlying ametric conception.</p>
+<hr />
+<h2 id="h"><a class="header" href="#h">H</a></h2>
+<p><strong>Harmonic Litany</strong> — Ch. XIV
+: Melodic fragment repeated with different harmonizations, creating varied coloristic treatments of same melodic material.</p>
+<p><strong>Hindu Rhythm</strong> (<em>Deçî-Tâlas</em>) — Ch. II
+: Rhythmic patterns from Çârngadeva's thirteenth-century catalog, providing source material for Messiaen's rhythmic innovations. Rāgavardhana analyzed to derive principles of added values, augmentation/diminution, and nonretrogradable structure.</p>
+<hr />
+<h2 id="i"><a class="header" href="#i">I</a></h2>
+<p><strong>Inexact Augmentation</strong> — Ch. IV
+: Simultaneous rhythmic layers undergoing different rates of augmentation or diminution, creating complex proportional relationships rather than uniform scaling.</p>
+<p><strong>Inferior Resonance</strong> — Ch. XIV
+: Cluster of chords added below principal chord, creating resonance effect. See also Superior Resonance.</p>
+<p><strong>Interversion of Notes</strong> — Ch. X
+: Transformational procedure involving reordering pitches within a melodic fragment while maintaining same pitch-class content.</p>
+<hr />
+<h2 id="k"><a class="header" href="#k">K</a></h2>
+<p><strong>Kyrie (Form)</strong> — Ch. XII
+: Plainchant-derived formal structure based on nine invocations (3×3), with tripartite organization reflecting Trinity symbolism.</p>
+<hr />
+<h2 id="m"><a class="header" href="#m">M</a></h2>
+<p><strong>Melodic Cadence Formulas</strong> — Ch. VIII
+: Characteristic melodic patterns functioning as closural gestures, derived from historical models (Moussorgsky, Grieg, Debussy) and adapted to Messiaen's harmonic language.</p>
+<p><strong>Melodic Supremacy</strong> — Ch. I, VIII
+: Hierarchical principle that melody constitutes the primary generative element, with rhythm serving melodic development and harmony chosen to fulfill melodic implications—harmony must be "true" (wanted by the melody).</p>
+<p><strong>Modes of Limited Transpositions</strong> — Ch. XVI–XIX
+: Symmetrical pitch collections that can only be transposed a limited number of times before reproducing original pitch content. Seven modes exist in twelve-tone equal temperament:</p>
+<ul>
+<li><strong>Mode 1</strong> (Whole-tone): 6 notes, 2 transpositions</li>
+<li><strong>Mode 2</strong> (Octatonic): 8 notes, 3 transpositions</li>
+<li><strong>Mode 3</strong>: 9 notes, 4 transpositions</li>
+<li><strong>Modes 4–7</strong>: Various structures, 6 transpositions each</li>
+</ul>
+<hr />
+<h2 id="n"><a class="header" href="#n">N</a></h2>
+<p><strong>Natural Harmony</strong> — Ch. XIV
+: Conception of harmony as emerging from acoustic phenomena, pre-existing in nature rather than constructed by theoretical systems.</p>
+<p><strong>Nonretrogradable Rhythm</strong> — Ch. V
+: Rhythmic structure that reads identically forwards and backwards due to palindromic organization. Realizes in horizontal (temporal) dimension what modes of limited transposition realize in vertical (pitch) dimension.</p>
+<hr />
+<h2 id="p"><a class="header" href="#p">P</a></h2>
+<p><strong>Parametric Analogy</strong> — Ch. I, III, XIII
+: Structural principle that techniques in one musical domain find analogous application in another: added values (rhythm) ↔ added notes (harmony); polyrhythm ↔ polymodality; nonretrogradable rhythms ↔ modes of limited transposition.</p>
+<p><strong>Passing Group</strong> — Ch. XV
+: Enlarged passing-tone structure where entire progressions move between structural harmonic pillars, functioning as single prolonged passing motion.</p>
+<p><strong>Pedal Group</strong> — Ch. XV
+: Sustained or repeated musical structure foreign to surrounding harmonic context, possessing its own internal organization while functioning analogically to traditional pedal point.</p>
+<p><strong>Plainchant Forms</strong> — Ch. XII
+: Formal structures derived from liturgical chant genres including anthem, alleluia, psalmody, Kyrie, and sequence. Used as models for contemporary instrumental and vocal works.</p>
+<p><strong>Polymodality</strong> — Ch. XIX
+: Simultaneous superposition of multiple modes of limited transpositions operating in different textural layers. Distinguished from polytonality—modal force absorbs potential tonal conflicts into unified harmonic atmospheres.</p>
+<p><strong>Polymodal Modulation</strong> — Ch. XIX
+: Transition from one polymodal combination to another through: (1) transposition changes, (2) layer exchange, or (3) modal substitution.</p>
+<p><strong>Polyrhythm</strong> — Ch. VI
+: Simultaneous layering of multiple independent rhythmic streams, including superposition of unequal lengths, different augmentation rates, rhythm with its retrograde, and rhythmic canons.</p>
+<p><strong>Prime Number Groupings</strong> — Ch. II, III
+: Rhythmic patterns organized in prime-numbered quantities (5, 7, 11, 13) that inherently resist subdivision into equal metric units, creating maximal metric dissonance.</p>
+<hr />
+<h2 id="r"><a class="header" href="#r">R</a></h2>
+<p><strong>Rāgavardhana</strong> — Ch. II
+: Specific Hindu rhythm (deçî-tâla #93) analyzed to extract principles of added values, asymmetrical augmentation, and nonretrogradable structure. Conceptual seed for Messiaen's entire rhythmic system.</p>
+<p><strong>Registral Change</strong> — Ch. X
+: Developmental technique involving dramatic octave displacement, moving low notes to extreme treble and vice versa. Combined with augmentation creates "crushing power."</p>
+<p><strong>Resonance Effects</strong> — Ch. XIV
+: Coloristic techniques adding chord clusters above (superior resonance) or below (inferior resonance) principal harmonies, creating harmonic halos.</p>
+<p><strong>Retrograde Rhythm</strong> — Ch. V
+: Temporal reversal of rhythmic pattern, reading from right to left. Distinguished from nonretrogradable rhythms, which are invariant under retrograde operation.</p>
+<p><strong>Rhythmic Canon</strong> — Ch. VI
+: Canonic imitation applied to rhythmic material, including canon by addition of the dot (where following voice adds dots to all values) and canon of nonretrogradable rhythms.</p>
+<p><strong>Rhythmic Notation</strong> — Ch. VII
+: Four approaches to notating ametric rhythms: (1) exact values without measure; (2) metric changes (Stravinsky method); (3) short measures with rhythmic signs; (4) false meter with exact accentuation.</p>
+<p><strong>Rhythmic Pedal</strong> — Ch. VI
+: Rhythm repeating ostinato-fashion, independent of surrounding rhythmic activity. Analogous to harmonic pedal but operating in temporal domain.</p>
+<p><strong>Rhythmic Preparations and Descents</strong> — Ch. III
+: Temporal gestures where preparation precedes accent and descent follows it, analogous to melodic upbeats and terminations. Added values modify their character.</p>
+<hr />
+<h2 id="s"><a class="header" href="#s">S</a></h2>
+<p><strong>Sequence (Form)</strong> — Ch. XII
+: Plainchant-derived form where each period is heard twice and all end on same note. Messiaen combines with Hindu raga character and Bach chorale ornamentation.</p>
+<p><strong>Song-Sentence</strong> (<em>Phrase Musicale</em>) — Ch. XI
+: Three-period structure: theme (antecedent-consequent), middle period inflected toward dominant, final period as issue of theme. Creates miniature ABA' form.</p>
+<p><strong>Stained-Glass Window Effect</strong> — Ch. XIV
+: Coloristic treatment arranging different inversions of a chord over common bass note, creating harmonic halos. Named for visual association with cathedral windows.</p>
+<p><strong>Superior Resonance</strong> — Ch. XIV
+: Cluster of chords added above principal chord, creating resonance effect. See also Inferior Resonance.</p>
+<p><strong>Superposition of Rhythms</strong> — Ch. VI
+: Layering of rhythmic patterns including: unequal lengths (cycling until realignment), different augmentation forms, rhythm upon its retrograde, and rhythmic canons.</p>
+<hr />
+<h2 id="t"><a class="header" href="#t">T</a></h2>
+<p><strong>Terminal Development</strong> — Ch. XII
+: Developmental section built over understood dominant and tonic pedals, creating climactic conclusion. Messiaen declares recapitulation "obsolete" and emphasizes terminal development as essential.</p>
+<p><strong>Ternary Sentence</strong> — Ch. XI
+: Five-part arch structure: theme-consequent-commentary-consequent-theme, creating symmetrical formal organization.</p>
+<p><strong>Theological Rainbow</strong> — Ch. I, V, XVI
+: Messiaen's metaphor for the spiritual dimension of his musical language—modes and rhythms embodying divine order and eternal truth through mathematical symmetry and impossible structures.</p>
+<hr />
+<h2 id="u"><a class="header" href="#u">U</a></h2>
+<p><strong>Upbeat-Accent-Termination</strong> — Ch. XV
+: The most expressive combination of foreign notes, consisting of anacrustic preparation (upbeat), moment of arrival (accent), and consequent resolution (termination). Elements may be "immense," separated by rests, or appear independently.</p>
+<hr />
+<h2 id="v"><a class="header" href="#v">V</a></h2>
+<p><strong>Vocalise</strong> — Ch. XII
+: Extended melodic passage without text, derived from alleluia jubilus. Characterized by ornamental freedom and expressive elaboration.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../part2/03-harmony/ch19-polymodality.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../part3/rhythm.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../part2/03-harmony/ch19-polymodality.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../part3/rhythm.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

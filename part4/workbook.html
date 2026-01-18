@@ -1,0 +1,932 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Workbook - The Technique of My Musical Language: A Modern Companion</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A scholarly companion to Olivier Messiaen&#x27;s La technique de mon langage musical (1944), in the English translation by John Satterfield (1956).">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Technique of My Musical Language: A Modern Companion</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc/edit/main/src/part4/workbook.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="part-iv-technique-of-your-musical-language"><a class="header" href="#part-iv-technique-of-your-musical-language">Part IV: Technique of <em>Your</em> Musical Language</a></h1>
+<h2 id="a-composers-workbook"><a class="header" href="#a-composers-workbook">A Composer's Workbook</a></h2>
+<hr />
+<h2 id="introduction-why-systematize-your-language"><a class="header" href="#introduction-why-systematize-your-language">Introduction: Why Systematize Your Language?</a></h2>
+<p>Messiaen's <em>Technique of My Musical Language</em> is remarkable not just for what it contains but for what it <em>is</em>: a composer's rigorous self-examination. He didn't document techniques to impress theorists—he systematized his own practice to understand it more deeply, to teach it more clearly, and to develop it more consciously.</p>
+<p>This workbook invites you to do the same.</p>
+<p>The goal isn't to replicate Messiaen's categories (modes of limited transposition, added values, nonretrogradable rhythms). The goal is to replicate his <em>method</em>: systematic observation of your own compositional fingerprints, extraction of underlying principles, and conscious development of personal vocabulary.</p>
+<h3 id="what-this-workbook-is"><a class="header" href="#what-this-workbook-is">What This Workbook Is</a></h3>
+<ul>
+<li>A structured framework for documenting your compositional practice</li>
+<li>A set of prompts for self-observation and principle extraction</li>
+<li>A template for building your own catalog of techniques</li>
+<li>A tool for identifying connections across parameters (your own "charm of impossibilities")</li>
+</ul>
+<h3 id="what-this-workbook-is-not"><a class="header" href="#what-this-workbook-is-not">What This Workbook Is Not</a></h3>
+<ul>
+<li>A prescription for what your language should contain</li>
+<li>A judgment about which techniques are valid</li>
+<li>A requirement to work in any particular style</li>
+<li>A replacement for compositional intuition</li>
+</ul>
+<h3 id="how-to-use-this-workbook"><a class="header" href="#how-to-use-this-workbook">How to Use This Workbook</a></h3>
+<p>Work through the sections in order, or jump to wherever connection feels strongest. Return periodically—your language evolves, and so should your documentation of it. Some sections may fill quickly; others may require months of reflection. There's no timeline.</p>
+<p>The prompts are suggestions, not requirements. Adapt them. Skip what doesn't resonate. Add what's missing. This is <em>your</em> technique of <em>your</em> musical language.</p>
+<hr />
+<h2 id="section-a-sources-and-influences"><a class="header" href="#section-a-sources-and-influences">Section A: Sources and Influences</a></h2>
+<h3 id="the-deforming-prism"><a class="header" href="#the-deforming-prism">The Deforming Prism</a></h3>
+<p>Messiaen drew from plainchant, Hindu rhythms, birdsong, Debussy, Russian music, stained-glass windows, and the mountains of Dauphiné. He didn't imitate these sources—he passed them through what he called "the deforming prism" of his language, transforming them so completely that the sources became unrecognizable while their structural DNA remained.</p>
+<p><strong>Your task:</strong> Identify your sources. Then identify how you transform them.</p>
+<h3 id="inventory-of-influences"><a class="header" href="#inventory-of-influences">Inventory of Influences</a></h3>
+<p>List everything that has shaped your musical thinking. Be comprehensive and honest—include the embarrassing early influences alongside the sophisticated later ones. Include non-musical sources.</p>
+<p><strong>Musical Sources:</strong></p>
+<div class="table-wrapper"><table><thead><tr><th>Source</th><th>What draws you to it</th><th>What you take from it (structural principle, not surface style)</th></tr></thead><tbody>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<p><strong>Non-Musical Sources:</strong></p>
+<div class="table-wrapper"><table><thead><tr><th>Source</th><th>What draws you to it</th><th>How it manifests in your music</th></tr></thead><tbody>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<h3 id="your-deforming-prism"><a class="header" href="#your-deforming-prism">Your Deforming Prism</a></h3>
+<p>How do influences enter your music without becoming quotation or pastiche? What transformation processes do you apply (consciously or unconsciously)?</p>
+<p><em>Describe in your own words:</em></p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<h3 id="source-synthesis-exercise"><a class="header" href="#source-synthesis-exercise">Source Synthesis Exercise</a></h3>
+<p>Choose three sources from completely different traditions. For each, identify one structural principle (not surface feature). Now write a short passage using all three principles simultaneously. Does it sound like any of the sources? If not, you've found your prism.</p>
+<hr />
+<h2 id="section-b-rhythmic-vocabulary"><a class="header" href="#section-b-rhythmic-vocabulary">Section B: Rhythmic Vocabulary</a></h2>
+<h3 id="your-relationship-to-meter"><a class="header" href="#your-relationship-to-meter">Your Relationship to Meter</a></h3>
+<p>Messiaen distinguished sharply between ametric (precisely measured but non-periodic) and metric (organized by recurring downbeats) rhythm. Where do you fall on this spectrum?</p>
+<p><strong>Circle or mark your tendencies:</strong></p>
+<pre><code>Strictly metric ←――――――――――――――――――――――――→ Completely ametric
+       1     2     3     4     5     6     7     8     9     10
+</code></pre>
+<p><strong>Do you use:</strong></p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Regular barlines with regular meter</li>
+<li><input disabled="" type="checkbox"/>
+Regular barlines with irregular meter (Stravinsky-style)</li>
+<li><input disabled="" type="checkbox"/>
+Barlines as convenience, contradicting actual rhythm</li>
+<li><input disabled="" type="checkbox"/>
+No barlines / proportional notation</li>
+<li><input disabled="" type="checkbox"/>
+Mixed approaches depending on context</li>
+</ul>
+<p><strong>Describe your typical relationship to pulse and periodicity:</strong></p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<h3 id="rhythmic-fingerprints"><a class="header" href="#rhythmic-fingerprints">Rhythmic Fingerprints</a></h3>
+<p>What rhythmic gestures recur in your music? These might be:</p>
+<ul>
+<li>Characteristic durations (preference for long notes? short? specific values?)</li>
+<li>Characteristic groupings (3s? 5s? 7s? mixed?)</li>
+<li>Characteristic articulation patterns</li>
+<li>Characteristic tempo relationships</li>
+</ul>
+<p><strong>List your recurring rhythmic gestures:</strong></p>
+<pre><code>
+1. _____________________________________________
+
+2. _____________________________________________
+
+3. _____________________________________________
+
+4. _____________________________________________
+
+5. _____________________________________________
+</code></pre>
+<h3 id="rhythmic-transformation-techniques"><a class="header" href="#rhythmic-transformation-techniques">Rhythmic Transformation Techniques</a></h3>
+<p>How do you develop rhythmic material? Check all that apply and add specifics:</p>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"/>
+<strong>Augmentation/Diminution</strong> (proportional scaling)</p>
+<ul>
+<li>Ratios you use: _______________________________</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+<strong>Addition/Subtraction</strong> (non-proportional modification)</p>
+<ul>
+<li>What you typically add/remove: _________________</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+<strong>Retrograde</strong> (reversal)</p>
+<ul>
+<li>Do you use palindromic/nonretrogradable structures? ____</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+<strong>Permutation</strong> (reordering)</p>
+<ul>
+<li>How do you reorder rhythmic cells? ______________</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+<strong>Superposition</strong> (polyrhythm/polymetric layering)</p>
+<ul>
+<li>Characteristic combinations: ___________________</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+<strong>Other:</strong></p>
+<ul>
+<li>Describe: ___________________________________</li>
+</ul>
+</li>
+</ul>
+<h3 id="rhythmic-catalog"><a class="header" href="#rhythmic-catalog">Rhythmic Catalog</a></h3>
+<p>Create your own catalog of characteristic rhythmic cells—the building blocks you return to. Notate them or describe them:</p>
+<div class="table-wrapper"><table><thead><tr><th>Cell</th><th>Notation/Description</th><th>Where it appears</th><th>What it expresses</th></tr></thead><tbody>
+<tr><td>1</td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="section-c-melodic-vocabulary"><a class="header" href="#section-c-melodic-vocabulary">Section C: Melodic Vocabulary</a></h2>
+<h3 id="melodic-primacy"><a class="header" href="#melodic-primacy">Melodic Primacy</a></h3>
+<p>Messiaen insisted that melody is "sovereign"—that harmony should emerge from melodic necessity rather than melody fitting into predetermined progressions. What's your hierarchy?</p>
+<p><strong>Rank these by priority in your typical practice (1 = highest):</strong></p>
+<p>___Melody
+___ Harmony
+___Rhythm
+___ Timbre/Texture
+___Form
+___ Text (if applicable)
+___ Other: ___________</p>
+<p><strong>Does this hierarchy change depending on context? Explain:</strong></p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<h3 id="intervallic-preferences"><a class="header" href="#intervallic-preferences">Intervallic Preferences</a></h3>
+<p>What intervals characterize your melodic writing?</p>
+<p><strong>Intervals you favor:</strong></p>
+<hr />
+<p><strong>Intervals you avoid:</strong></p>
+<hr />
+<p><strong>Characteristic interval combinations (e.g., "tritone followed by minor second"):</strong></p>
+<hr />
+<h3 id="contour-tendencies"><a class="header" href="#contour-tendencies">Contour Tendencies</a></h3>
+<p>How do your melodies move through pitch space?</p>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"/>
+Primarily stepwise</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+Primarily leaping</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+Mixed (describe pattern): _____________________</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+Primarily ascending</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+Primarily descending</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+Arched (up then down)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+Inverted arch (down then up)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+Circling around central pitch</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"/>
+Other: ___________________________________</p>
+</li>
+</ul>
+<p><strong>Typical registral range:</strong></p>
+<hr />
+<p><strong>Do you use extreme registers? How?</strong></p>
+<hr />
+<h3 id="melodic-development-techniques"><a class="header" href="#melodic-development-techniques">Melodic Development Techniques</a></h3>
+<p>How do you develop melodic material?</p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+<strong>Elimination</strong> (progressive reduction)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Interversion</strong> (pitch reordering)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Registral displacement</strong> (octave transfer)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Fragmentation</strong> (extracting motives)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Sequence</strong> (transposed repetition)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Variation</strong> (ornamented repetition)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Inversion</strong> (melodic mirror)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Retrograde</strong> (reversal)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Other:</strong> ________________________________</li>
+</ul>
+<h3 id="phrase-structure"><a class="header" href="#phrase-structure">Phrase Structure</a></h3>
+<p>What are your typical phrase lengths?</p>
+<p><strong>In measures:</strong> _______________________________</p>
+<p><strong>In beats/durations:</strong> _________________________</p>
+<p><strong>Do you use regular phrase lengths or irregular?</strong></p>
+<hr />
+<p><strong>Describe your typical phrase-to-phrase relationships (continuation, contrast, return, development):</strong></p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<h3 id="melodic-catalog"><a class="header" href="#melodic-catalog">Melodic Catalog</a></h3>
+<p>Document your characteristic melodic gestures—the fingerprints that make your melodies recognizably yours:</p>
+<div class="table-wrapper"><table><thead><tr><th>Gesture</th><th>Description/Notation</th><th>Expressive character</th><th>Example piece</th></tr></thead><tbody>
+<tr><td>1</td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="section-d-harmonic-vocabulary"><a class="header" href="#section-d-harmonic-vocabulary">Section D: Harmonic Vocabulary</a></h2>
+<h3 id="harmonic-orientation"><a class="header" href="#harmonic-orientation">Harmonic Orientation</a></h3>
+<p>Where does your harmony sit on these spectra?</p>
+<pre><code>Triadic ←――――――――――――――――――――――――→ Non-triadic
+    1    2    3    4    5    6    7    8    9    10
+
+Functional ←――――――――――――――――――――――――→ Non-functional
+    1    2    3    4    5    6    7    8    9    10
+
+Consonant ←――――――――――――――――――――――――→ Dissonant
+    1    2    3    4    5    6    7    8    9    10
+
+Simple ←――――――――――――――――――――――――→ Complex
+    1    2    3    4    5    6    7    8    9    10
+</code></pre>
+<h3 id="chord-vocabulary"><a class="header" href="#chord-vocabulary">Chord Vocabulary</a></h3>
+<p>What chord types do you use most?</p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Major/minor triads</li>
+<li><input disabled="" type="checkbox"/>
+Seventh chords (specify types): ________________</li>
+<li><input disabled="" type="checkbox"/>
+Extended tertian (9ths, 11ths, 13ths)</li>
+<li><input disabled="" type="checkbox"/>
+Quartal/quintal structures</li>
+<li><input disabled="" type="checkbox"/>
+Clusters</li>
+<li><input disabled="" type="checkbox"/>
+Added-note chords (specify): __________________</li>
+<li><input disabled="" type="checkbox"/>
+Symmetrical structures (diminished, augmented, etc.)</li>
+<li><input disabled="" type="checkbox"/>
+Polychords</li>
+<li><input disabled="" type="checkbox"/>
+Other: ___________________________________</li>
+</ul>
+<h3 id="scalemode-usage"><a class="header" href="#scalemode-usage">Scale/Mode Usage</a></h3>
+<p>What pitch collections organize your music?</p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Major/minor scales</li>
+<li><input disabled="" type="checkbox"/>
+Church modes (specify favorites): ______________</li>
+<li><input disabled="" type="checkbox"/>
+Pentatonic</li>
+<li><input disabled="" type="checkbox"/>
+Whole-tone</li>
+<li><input disabled="" type="checkbox"/>
+Octatonic (diminished)</li>
+<li><input disabled="" type="checkbox"/>
+Hexatonic (augmented)</li>
+<li><input disabled="" type="checkbox"/>
+Messiaen's modes (specify): __________________</li>
+<li><input disabled="" type="checkbox"/>
+Synthetic scales (describe): __________________</li>
+<li><input disabled="" type="checkbox"/>
+Chromatic/atonal</li>
+<li><input disabled="" type="checkbox"/>
+Microtonal (describe): ______________________</li>
+<li><input disabled="" type="checkbox"/>
+Other: ___________________________________</li>
+</ul>
+<h3 id="harmonic-motion"><a class="header" href="#harmonic-motion">Harmonic Motion</a></h3>
+<p>How do your harmonies progress?</p>
+<p><strong>Characteristic progressions (describe or notate):</strong></p>
+<pre><code>
+1. _____________________________________________
+
+2. _____________________________________________
+
+3. _____________________________________________
+</code></pre>
+<p><strong>Do you favor:</strong></p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Root motion by fifth</li>
+<li><input disabled="" type="checkbox"/>
+Root motion by third</li>
+<li><input disabled="" type="checkbox"/>
+Root motion by second</li>
+<li><input disabled="" type="checkbox"/>
+Chromatic voice-leading</li>
+<li><input disabled="" type="checkbox"/>
+Common-tone connections</li>
+<li><input disabled="" type="checkbox"/>
+Parallel motion</li>
+<li><input disabled="" type="checkbox"/>
+Static harmony (pedal, ostinato)</li>
+<li><input disabled="" type="checkbox"/>
+Other: ___________________________________</li>
+</ul>
+<h3 id="harmonic-catalog"><a class="header" href="#harmonic-catalog">Harmonic Catalog</a></h3>
+<p>Document your characteristic chord voicings and progressions:</p>
+<div class="table-wrapper"><table><thead><tr><th>Voicing/Progression</th><th>Description/Notation</th><th>Color/Character</th><th>Example piece</th></tr></thead><tbody>
+<tr><td>1</td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="section-e-formal-vocabulary"><a class="header" href="#section-e-formal-vocabulary">Section E: Formal Vocabulary</a></h2>
+<h3 id="preferred-durations"><a class="header" href="#preferred-durations">Preferred Durations</a></h3>
+<p>What scale do you typically work at?</p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Miniatures (under 3 minutes)</li>
+<li><input disabled="" type="checkbox"/>
+Short pieces (3-10 minutes)</li>
+<li><input disabled="" type="checkbox"/>
+Medium pieces (10-20 minutes)</li>
+<li><input disabled="" type="checkbox"/>
+Extended works (20-45 minutes)</li>
+<li><input disabled="" type="checkbox"/>
+Large-scale works (45+ minutes)</li>
+</ul>
+<h3 id="formal-archetypes"><a class="header" href="#formal-archetypes">Formal Archetypes</a></h3>
+<p>What shapes do your pieces tend to take?</p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+<strong>Binary</strong> (AB, AA')</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Ternary</strong> (ABA, ABA')</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Rondo</strong> (ABACA...)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Variation</strong> (A, A', A'', A'''...)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Through-composed</strong> (ABC...)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Arch</strong> (ABCBA)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Spiral</strong> (returning but never identical)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Developmental</strong> (working-out of material)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Sectional</strong> (discrete blocks)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Continuous</strong> (seamless transformation)</li>
+<li><input disabled="" type="checkbox"/>
+<strong>Open/Indeterminate</strong></li>
+<li><input disabled="" type="checkbox"/>
+<strong>Other:</strong> ________________________________</li>
+</ul>
+<h3 id="formal-fingerprints"><a class="header" href="#formal-fingerprints">Formal Fingerprints</a></h3>
+<p>What formal gestures characterize your work?</p>
+<p><strong>Beginnings:</strong> How do your pieces typically start?</p>
+<pre><code>
+_______________________________________________
+</code></pre>
+<p><strong>Endings:</strong> How do your pieces typically conclude?</p>
+<pre><code>
+_______________________________________________
+</code></pre>
+<p><strong>Climaxes:</strong> How do you build toward and execute climactic moments?</p>
+<pre><code>
+_______________________________________________
+</code></pre>
+<p><strong>Transitions:</strong> How do you move between sections?</p>
+<pre><code>
+_______________________________________________
+</code></pre>
+<h3 id="relationship-to-traditional-forms"><a class="header" href="#relationship-to-traditional-forms">Relationship to Traditional Forms</a></h3>
+<p>Do you use sonata, fugue, or other traditional forms? How do you modify them?</p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<hr />
+<h2 id="section-f-interconnections"><a class="header" href="#section-f-interconnections">Section F: Interconnections</a></h2>
+<h3 id="your-charm-of-impossibilities"><a class="header" href="#your-charm-of-impossibilities">Your "Charm of Impossibilities"</a></h3>
+<p>Messiaen found deep connections between nonretrogradable rhythms and modes of limited transposition—both embody symmetry, both create "impossible" structures (rhythms that don't change when reversed, modes that run out of transpositions). This wasn't coincidence; it was unified aesthetic vision.</p>
+<p><strong>What connects your techniques across parameters?</strong></p>
+<p>Do your rhythmic and harmonic choices share underlying logic? Do your melodic and formal preferences relate? What's the deeper principle unifying your language?</p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<h3 id="cross-parameter-relationships"><a class="header" href="#cross-parameter-relationships">Cross-Parameter Relationships</a></h3>
+<p>Fill in connections you notice:</p>
+<div class="table-wrapper"><table><thead><tr><th>If I use this rhythm...</th><th>...I tend to use this harmony</th></tr></thead><tbody>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>If I use this melodic gesture...</th><th>...I tend to use this form</th></tr></thead><tbody>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>If I use this texture...</th><th>...I tend to use this rhythm</th></tr></thead><tbody>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+</tbody></table>
+</div>
+<h3 id="technique-clusters"><a class="header" href="#technique-clusters">Technique Clusters</a></h3>
+<p>Do certain techniques appear together? Document your characteristic combinations:</p>
+<p><strong>Cluster 1:</strong></p>
+<pre><code>
+- Rhythm: _____________________________________
+
+- Melody: _____________________________________
+
+- Harmony: ____________________________________
+
+- Form: ______________________________________
+
+- Expressive character: _________________________
+</code></pre>
+<p><strong>Cluster 2:</strong></p>
+<pre><code>
+- Rhythm: _____________________________________
+
+- Melody: _____________________________________
+
+- Harmony: ____________________________________
+
+- Form: ______________________________________
+
+- Expressive character: _________________________
+</code></pre>
+<p><strong>Cluster 3:</strong></p>
+<pre><code>
+- Rhythm: _____________________________________
+
+- Melody: _____________________________________
+
+- Harmony: ____________________________________
+
+- Form: ______________________________________
+
+- Expressive character: _________________________
+</code></pre>
+<hr />
+<h2 id="section-g-aesthetic-grounding"><a class="header" href="#section-g-aesthetic-grounding">Section G: Aesthetic Grounding</a></h2>
+<h3 id="expressive-territory"><a class="header" href="#expressive-territory">Expressive Territory</a></h3>
+<p>What emotional/expressive territory does your music inhabit?</p>
+<p><strong>Circle or list the affects your music most often embodies:</strong></p>
+<pre><code>Joy — Sorrow — Anger — Fear — Love — Longing — Peace — Agitation — Wonder — Mystery — Tenderness — Violence — Ecstasy — Desolation — Hope — Despair — Other: _______________
+</code></pre>
+<p><strong>Are there affects you avoid? Why?</strong></p>
+<pre><code>
+_______________________________________________
+</code></pre>
+<h3 id="extra-musical-connections"><a class="header" href="#extra-musical-connections">Extra-Musical Connections</a></h3>
+<p>Does your music connect to:</p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Spiritual/religious experience (describe): _________</li>
+<li><input disabled="" type="checkbox"/>
+Nature (describe): __________________________</li>
+<li><input disabled="" type="checkbox"/>
+Visual art (describe): ________________________</li>
+<li><input disabled="" type="checkbox"/>
+Literature/poetry (describe): __________________</li>
+<li><input disabled="" type="checkbox"/>
+Philosophy (describe): _______________________</li>
+<li><input disabled="" type="checkbox"/>
+Mathematics/science (describe): ________________</li>
+<li><input disabled="" type="checkbox"/>
+Social/political concerns (describe): _____________</li>
+<li><input disabled="" type="checkbox"/>
+Personal narrative (describe): __________________</li>
+<li><input disabled="" type="checkbox"/>
+Pure sonic exploration (describe): _______________</li>
+<li><input disabled="" type="checkbox"/>
+Other: ___________________________________</li>
+</ul>
+<h3 id="aesthetic-statement"><a class="header" href="#aesthetic-statement">Aesthetic Statement</a></h3>
+<p>In one paragraph, describe what you're trying to achieve with your music. What experience do you want to create for listeners? What do you want your music to <em>do</em>?</p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+
+_______________________________________________
+
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<hr />
+<h2 id="section-h-evolution-and-development"><a class="header" href="#section-h-evolution-and-development">Section H: Evolution and Development</a></h2>
+<h3 id="historical-arc"><a class="header" href="#historical-arc">Historical Arc</a></h3>
+<p>How has your language changed over time?</p>
+<p><strong>Early period:</strong></p>
+<pre><code>
+- Dates: _____________________________________
+
+- Characteristics: ______________________________
+
+- Key works: _________________________________
+</code></pre>
+<p><strong>Middle period:</strong></p>
+<pre><code>
+- Dates: _____________________________________
+
+- Characteristics: ______________________________
+
+- Key works: _________________________________
+</code></pre>
+<p><strong>Current period:</strong></p>
+<pre><code>
+- Dates: _____________________________________
+
+- Characteristics: ______________________________
+
+- Key works: _________________________________
+</code></pre>
+<h3 id="techniques-abandoned"><a class="header" href="#techniques-abandoned">Techniques Abandoned</a></h3>
+<p>What did you used to do that you no longer do? Why did you stop?</p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<h3 id="techniques-acquired"><a class="header" href="#techniques-acquired">Techniques Acquired</a></h3>
+<p>What have you added to your vocabulary over time? Where did it come from?</p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<h3 id="future-directions"><a class="header" href="#future-directions">Future Directions</a></h3>
+<p>What aspects of your language do you want to develop further?</p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<p>What new territories do you want to explore?</p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<hr />
+<h2 id="section-i-catalog-of-works"><a class="header" href="#section-i-catalog-of-works">Section I: Catalog of Works</a></h2>
+<h3 id="work-list"><a class="header" href="#work-list">Work List</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Title</th><th>Date</th><th>Duration</th><th>Forces</th><th>Key techniques used</th></tr></thead><tbody>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<h3 id="representative-works"><a class="header" href="#representative-works">Representative Works</a></h3>
+<p>Which pieces best represent your language at each stage of development?</p>
+<pre><code>**Early:** _____________________________________
+
+**Middle:** ___________________________________
+
+**Current:** __________________________________
+</code></pre>
+<h3 id="technique-to-work-index"><a class="header" href="#technique-to-work-index">Technique-to-Work Index</a></h3>
+<p>Which pieces best demonstrate specific techniques?</p>
+<div class="table-wrapper"><table><thead><tr><th>Technique</th><th>Best demonstrated in</th></tr></thead><tbody>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="appendix-blank-templates"><a class="header" href="#appendix-blank-templates">Appendix: Blank Templates</a></h2>
+<h3 id="rhythmic-cell-template"><a class="header" href="#rhythmic-cell-template">Rhythmic Cell Template</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Cell name</th><th>Notation</th><th>Duration values</th><th>Grouping structure</th><th>Character</th><th>Transformations available</th></tr></thead><tbody>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<h3 id="melodic-gesture-template"><a class="header" href="#melodic-gesture-template">Melodic Gesture Template</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Gesture name</th><th>Intervals</th><th>Contour</th><th>Range</th><th>Rhythm</th><th>Character</th><th>Development potential</th></tr></thead><tbody>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<h3 id="harmonic-voicing-template"><a class="header" href="#harmonic-voicing-template">Harmonic Voicing Template</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Voicing name</th><th>Pitches (low to high)</th><th>Intervals</th><th>Doubling</th><th>Spacing</th><th>Color</th><th>Typical context</th></tr></thead><tbody>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<h3 id="formal-section-template"><a class="header" href="#formal-section-template">Formal Section Template</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Section name</th><th>Duration</th><th>Function</th><th>Material</th><th>Character</th><th>Transitions to</th></tr></thead><tbody>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="final-reflection"><a class="header" href="#final-reflection">Final Reflection</a></h2>
+<p>Messiaen concluded his treatise with acknowledgment of influences and gratitude to those who helped him. Consider:</p>
+<p><strong>Who taught you?</strong></p>
+<pre><code>
+_______________________________________________
+</code></pre>
+<p><strong>Who influenced you?</strong></p>
+<pre><code>
+_______________________________________________
+</code></pre>
+<p><strong>Who supports your work?</strong></p>
+<pre><code>
+_______________________________________________
+</code></pre>
+<p><strong>What are you grateful for in your musical life?</strong></p>
+<pre><code>
+_______________________________________________
+
+_______________________________________________
+</code></pre>
+<hr />
+<p><em>This workbook is a living document. Return to it. Revise it. Let it grow as your language grows.</em></p>
+<p><em>The technique of your musical language is already present in your music—this workbook simply helps you see it more clearly, develop it more consciously, and articulate it more precisely.</em></p>
+<p><em>Now: compose.</em></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../part3/cross-references.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../part4/section-a-sources-and-influences.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../part3/cross-references.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../part4/section-a-sources-and-influences.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

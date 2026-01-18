@@ -1,0 +1,380 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Detailed Table of Contents - The Technique of My Musical Language: A Modern Companion</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A scholarly companion to Olivier Messiaen&#x27;s La technique de mon langage musical (1944), in the English translation by John Satterfield (1956).">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Technique of My Musical Language: A Modern Companion</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc/edit/main/src/part1/detailed-toc.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="detailed-table-of-contents"><a class="header" href="#detailed-table-of-contents">Detailed Table of Contents</a></h1>
+<p>This preserves the complete structure from the original, including all subsections.</p>
+<hr />
+<h2 id="front-matter"><a class="header" href="#front-matter">Front Matter</a></h2>
+<ul>
+<li>Introduction to the English Translation — p. 5</li>
+<li>Preface — p. 7</li>
+</ul>
+<hr />
+<h2 id="part-i-rhythm-chapters-ivii"><a class="header" href="#part-i-rhythm-chapters-ivii">Part I: Rhythm (Chapters I–VII)</a></h2>
+<h3 id="chapter-i--the-charm-of-impossibilities-and-the-relation-of-the-different-subject-matters--p-13"><a class="header" href="#chapter-i--the-charm-of-impossibilities-and-the-relation-of-the-different-subject-matters--p-13">Chapter I — The Charm of Impossibilities and the Relation of the Different Subject Matters — p. 13</a></h3>
+<h3 id="chapter-ii--rāgavardhana-hindu-rhythm--p-14"><a class="header" href="#chapter-ii--rāgavardhana-hindu-rhythm--p-14">Chapter II — Rāgavardhana, Hindu Rhythm — p. 14</a></h3>
+<ol>
+<li>Ametrical Music — p. 14</li>
+<li>Rāgavardhana — p. 14</li>
+</ol>
+<h3 id="chapter-iii--rhythms-with-added-values--p-16"><a class="header" href="#chapter-iii--rhythms-with-added-values--p-16">Chapter III — Rhythms with Added Values — p. 16</a></h3>
+<ol>
+<li>Added Value — p. 16</li>
+<li>Use of the Added Value — p. 16</li>
+<li>Rhythmic Preparations and Descents — p. 17</li>
+<li>Relation to Added Notes — p. 17</li>
+</ol>
+<h3 id="chapter-iv--augmented-or-diminished-rhythms-and-table-of-these-rhythms--p-18"><a class="header" href="#chapter-iv--augmented-or-diminished-rhythms-and-table-of-these-rhythms--p-18">Chapter IV — Augmented or Diminished Rhythms and Table of These Rhythms — p. 18</a></h3>
+<ol>
+<li>Augmented or Diminished Rhythms — p. 18</li>
+<li>Addition and Withdrawal of the Dot — p. 18</li>
+<li>A Table of Some Forms of Augmentation or Diminution of a Rhythm — p. 18</li>
+<li>Inexact Augmentations — p. 19</li>
+</ol>
+<h3 id="chapter-v--nonretrogradable-rhythms--p-20"><a class="header" href="#chapter-v--nonretrogradable-rhythms--p-20">Chapter V — Nonretrogradable Rhythms — p. 20</a></h3>
+<ol>
+<li>Retrograde Rhythms — p. 20</li>
+<li>Nonretrogradable Rhythms — p. 20</li>
+<li>Relation of Nonretrogradable Rhythms and Modes of Limited Transpositions — p. 21</li>
+</ol>
+<h3 id="chapter-vi--polyrhythm-and-rhythmic-pedals--p-22"><a class="header" href="#chapter-vi--polyrhythm-and-rhythmic-pedals--p-22">Chapter VI — Polyrhythm and Rhythmic Pedals — p. 22</a></h3>
+<ol>
+<li>Superposition of Rhythms of Unequal Length — p. 22</li>
+<li>Superposition of a Rhythm upon Its Different Forms of Augmentation and Diminution — p. 23</li>
+<li>Superposition of a Rhythm upon Its Retrograde — p. 23</li>
+<li>Rhythmic Canons — p. 24</li>
+<li>Canon by the Addition of the Dot — p. 25</li>
+<li>Canon of Nonretrogradable Rhythms — p. 26</li>
+<li>Rhythmic Pedal — p. 26</li>
+</ol>
+<h3 id="chapter-vii--rhythmic-notations--p-28"><a class="header" href="#chapter-vii--rhythmic-notations--p-28">Chapter VII — Rhythmic Notations — p. 28</a></h3>
+<ol>
+<li>First Notation — p. 28</li>
+<li>Second Notation — p. 28</li>
+<li>Third Notation — p. 28</li>
+<li>Fourth Notation — p. 29</li>
+<li>Some Metrical Rhythms — p. 30</li>
+</ol>
+<hr />
+<h2 id="part-ii-melody-chapters-viiixii"><a class="header" href="#part-ii-melody-chapters-viiixii">Part II: Melody (Chapters VIII–XII)</a></h2>
+<h3 id="chapter-viii--melody-and-melodic-contours--p-31"><a class="header" href="#chapter-viii--melody-and-melodic-contours--p-31">Chapter VIII — Melody and Melodic Contours — p. 31</a></h3>
+<ol>
+<li>Intervals — p. 31</li>
+<li>Melodic Contours — p. 31</li>
+<li>Folk Songs — p. 32</li>
+<li>Plainchant — p. 33</li>
+<li>Hindu Ragas — p. 33</li>
+</ol>
+<h3 id="chapter-ix--bird-song--p-34"><a class="header" href="#chapter-ix--bird-song--p-34">Chapter IX — Bird Song — p. 34</a></h3>
+<h3 id="chapter-x--melodic-development--p-35"><a class="header" href="#chapter-x--melodic-development--p-35">Chapter X — Melodic Development — p. 35</a></h3>
+<ol>
+<li>Elimination — p. 35</li>
+<li>Interversion of Notes — p. 35</li>
+<li>Change of Register — p. 36</li>
+</ol>
+<h3 id="chapter-xi--song-sentence-binary-and-ternary-sentences--p-37"><a class="header" href="#chapter-xi--song-sentence-binary-and-ternary-sentences--p-37">Chapter XI — Song-Sentence, Binary and Ternary Sentences — p. 37</a></h3>
+<ol>
+<li>Song-Sentence — p. 37</li>
+<li>Commentary — p. 38</li>
+<li>Binary Sentence — p. 38</li>
+<li>Ternary Sentence — p. 38</li>
+<li>List of Melodic Periods — p. 39</li>
+</ol>
+<h3 id="chapter-xii--fugue-sonata-plainchant-forms--p-40"><a class="header" href="#chapter-xii--fugue-sonata-plainchant-forms--p-40">Chapter XII — Fugue, Sonata, Plainchant Forms — p. 40</a></h3>
+<ol>
+<li>Fugue — p. 40</li>
+<li>Sonata — p. 40</li>
+<li>Development of Three Themes, Preparing a Final Issued from the First — p. 41</li>
+<li>Variations of the First Theme, Separated by Developments of the Second — p. 42</li>
+<li>Plainchant Forms — p. 44</li>
+<li>Psalmody and Vocalise — p. 45</li>
+<li>Kyrie — p. 45</li>
+<li>Sequence — p. 46</li>
+</ol>
+<hr />
+<h2 id="part-iii-harmony-chapters-xiiixix"><a class="header" href="#part-iii-harmony-chapters-xiiixix">Part III: Harmony (Chapters XIII–XIX)</a></h2>
+<h3 id="chapter-xiii--harmony-debussy-added-notes--p-47"><a class="header" href="#chapter-xiii--harmony-debussy-added-notes--p-47">Chapter XIII — Harmony, Debussy, Added Notes — p. 47</a></h3>
+<ol>
+<li>Added Notes — p. 47</li>
+<li>Added Sixth and Added Augmented Fourth — p. 47</li>
+<li>Relation of Added Notes and Added Values — p. 48</li>
+<li>Use of Added Notes — p. 48</li>
+</ol>
+<h3 id="chapter-xiv--special-chords-clusters-of-chords-and-a-list-of-connections-of-chords--p-50"><a class="header" href="#chapter-xiv--special-chords-clusters-of-chords-and-a-list-of-connections-of-chords--p-50">Chapter XIV — Special Chords, Clusters of Chords, and a List of Connections of Chords — p. 50</a></h3>
+<ol>
+<li>The Chord on the Dominant — p. 50</li>
+<li>The Chord of Resonance — p. 50</li>
+<li>The Chord in Fourths — p. 50</li>
+<li>Effects of Resonance — p. 51</li>
+<li>Clusters of Chords — p. 51</li>
+<li>A Look at Other Styles — p. 52</li>
+<li>Natural Harmony — p. 52</li>
+<li>A List of Connections of Chords — p. 53</li>
+</ol>
+<h3 id="chapter-xv--enlargement-of-foreign-notes-upbeats-and-terminations--p-55"><a class="header" href="#chapter-xv--enlargement-of-foreign-notes-upbeats-and-terminations--p-55">Chapter XV — Enlargement of Foreign Notes, Upbeats and Terminations — p. 55</a></h3>
+<ol>
+<li>The Pedal Group — p. 55</li>
+<li>The Passing Group — p. 56</li>
+<li>The Embellishment Group — p. 56</li>
+<li>Upbeats and Terminations — p. 56</li>
+</ol>
+<h3 id="chapter-xvi--modes-of-limited-transpositions--p-58"><a class="header" href="#chapter-xvi--modes-of-limited-transpositions--p-58">Chapter XVI — Modes of Limited Transpositions — p. 58</a></h3>
+<ol>
+<li>Theory of the Modes of Limited Transpositions — p. 58</li>
+<li>First Mode of Limited Transpositions — p. 59</li>
+<li>Second Mode of Limited Transpositions — p. 59</li>
+<li>Third Mode of Limited Transpositions — p. 60</li>
+<li>Modes 4, 5, 6, and 7 — p. 61</li>
+<li>Relation of Modes of Limited Transpositions and Nonretrogradable Rhythms — p. 62</li>
+</ol>
+<h3 id="chapter-xvii--modulations-of-these-modes-and-their-relation-to-the-major-tonality--p-64"><a class="header" href="#chapter-xvii--modulations-of-these-modes-and-their-relation-to-the-major-tonality--p-64">Chapter XVII — Modulations of These Modes and Their Relation to the Major Tonality — p. 64</a></h3>
+<ol>
+<li>Relation to the Major Tonality — p. 64</li>
+<li>Modulation of a Mode to Itself — p. 65</li>
+<li>Modulation of a Mode to Another Mode — p. 65</li>
+</ol>
+<h3 id="chapter-xviii--relation-of-these-modes-to-modal-atonal-polytonal-and-quarter-tone-music--p-67"><a class="header" href="#chapter-xviii--relation-of-these-modes-to-modal-atonal-polytonal-and-quarter-tone-music--p-67">Chapter XVIII — Relation of These Modes to Modal, Atonal, Polytonal, and Quarter-Tone Music — p. 67</a></h3>
+<h3 id="chapter-xix--polymodality--p-68"><a class="header" href="#chapter-xix--polymodality--p-68">Chapter XIX — Polymodality — p. 68</a></h3>
+<ol>
+<li>Two Superposed Modes — p. 68</li>
+<li>Three Modes Superposed — p. 69</li>
+<li>Polymodal Modulation — p. 69</li>
+</ol>
+<hr />
+<h2 id="appendix"><a class="header" href="#appendix">Appendix</a></h2>
+<ul>
+<li>Catalogue of Works — p. 71</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../part1/about.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../part2/01-rhythm/overview.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../part1/about.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../part2/01-rhythm/overview.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
