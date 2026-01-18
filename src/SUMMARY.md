@@ -74,6 +74,14 @@
     - [Relationship to Other Chapters](./part2/01-rhythm/ch06-relationship.md)
     - [Summary](./part2/01-rhythm/ch06-summary.md)
   - [Chapter VII: Rhythmic Notations](./part2/01-rhythm/ch07-rhythmic-notations.md)
+    - [Key Concepts](./part2/01-rhythm/ch07-key-concepts.md)
+      - [First Notation: Exact Values Without Measure](./part2/01-rhythm/ch07-first-notation.md)
+      - [Second Notation: Metric Changes (Stravinsky's Method)](./part2/01-rhythm/ch07-second-notation.md)
+      - [Third Notation: Short Measures with Rhythmic Signs](./part2/01-rhythm/ch07-third-notation.md)
+      - [Fourth Notation: False Meter with Exact Accentuation](./part2/01-rhythm/ch07-fourth-notation.md)
+      - [Some Metrical Rhythms (Supplementary Examples)](./part2/01-rhythm/ch07-supplementary-examples.md)
+    - [Relationship to Other Chapters](./part2/01-rhythm/ch07-relationship.md)
+    - [Summary](./part2/01-rhythm/ch07-summary.md)
 
 ## Melody
 
