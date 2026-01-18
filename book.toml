@@ -5,6 +5,7 @@ description = "A searchable digital edition of Messiaen's treatise on his compos
 language = "en"
 
 [output.html]
+no-section-label = true
 default-theme = "light"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/yourusername/messiaen-technique"
@@ -21,3 +22,7 @@ boost-paragraph = 1
 expand = true
 heading-split-level = 3
 copy-js = true
+
+[output.html.fold]
+enable = true
+level = 0
