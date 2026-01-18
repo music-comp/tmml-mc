@@ -1,15 +1,18 @@
 [book]
-title = "The Technique of My Musical Language"
-authors = ["Olivier Messiaen", "Translated by John Satterfield"]
-description = "A searchable digital edition of Messiaen's treatise on his compositional techniques"
+title = "The Technique of My Musical Language: A Modern Companion"
+authors = [
+  "Olivier Messiaen",
+  "Translated by John Satterfield",
+  "Analysed by Claude Opus 4.5 and Duncan McGreggor (with supplemental materials)"]
+description = "A scholarly companion to Olivier Messiaen's La technique de mon langage musical (1944), in the English translation by John Satterfield (1956)."
 language = "en"
 
 [output.html]
 no-section-label = true
-default-theme = "light"
+default-theme = "rust"
 preferred-dark-theme = "navy"
-git-repository-url = "https://github.com/yourusername/messiaen-technique"
-edit-url-template = "https://github.com/yourusername/messiaen-technique/edit/main/{path}"
+git-repository-url = "https://github.com/music-comp/tmml-mc"
+edit-url-template = "https://github.com/music-comp/tmml-mc/edit/main/{path}"
 
 [output.html.search]
 enable = true
