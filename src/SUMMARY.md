@@ -62,6 +62,17 @@
     - [Relationship to Other Chapters](./part2/01-rhythm/ch05-relationship.md)
     - [Summary](./part2/01-rhythm/ch05-summary.md)
   - [Chapter VI: Polyrhythm and Rhythmic Pedals](./part2/01-rhythm/ch06-polyrhythm.md)
+    - [Key Concepts](./part2/01-rhythm/ch06-key-concepts.md)
+      - [Gathering into Meter](./part2/01-rhythm/ch06-gathering-into-meter.md)
+      - [Superposition of Rhythms of Unequal Length](./part2/01-rhythm/ch06-superposition-unequal-length.md)
+      - [Superposition upon Different Forms of Augmentation](./part2/01-rhythm/ch06-superposition-augmentation.md)
+      - [Superposition upon Its Retrograde](./part2/01-rhythm/ch06-superposition-retrograde.md)
+      - [Rhythmic Canons](./part2/01-rhythm/ch06-rhythmic-canons.md)
+      - [Canon by the Addition of the Dot](./part2/01-rhythm/ch06-canon-dot-addition.md)
+      - [Canon of Nonretrogradable Rhythms](./part2/01-rhythm/ch06-canon-nonretrogradable.md)
+      - [Rhythmic Pedal](./part2/01-rhythm/ch06-rhythmic-pedal.md)
+    - [Relationship to Other Chapters](./part2/01-rhythm/ch06-relationship.md)
+    - [Summary](./part2/01-rhythm/ch06-summary.md)
   - [Chapter VII: Rhythmic Notations](./part2/01-rhythm/ch07-rhythmic-notations.md)
 
 ## Melody
