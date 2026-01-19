@@ -189,7 +189,14 @@
       - [Quarter-Tone Music](part2/03-harmony/ch18-quarter-tone-music.md)
     - [Relationship to Other Chapters](part2/03-harmony/ch18-relationship.md)
     - [Summary](part2/03-harmony/ch18-summary.md)
-  - [Chapter XIX: Polymodality](./part2/03-harmony/ch19-polymodality.md)
+  - [Chapter XIX: Polymodality](part2/03-harmony/ch19-polymodality.md)
+    - [Key Concepts](part2/03-harmony/ch19-key-concepts.md)
+      - [Polymodality: Definition and Principle](part2/03-harmony/ch19-polymodality-definition.md)
+      - [Two Superposed Modes](part2/03-harmony/ch19-two-modes.md)
+      - [Three Modes Superposed](part2/03-harmony/ch19-three-modes.md)
+      - [Polymodal Modulation](part2/03-harmony/ch19-polymodal-modulation.md)
+    - [Relationship to Other Chapters](part2/03-harmony/ch19-relationship.md)
+    - [Summary](part2/03-harmony/ch19-summary.md)
 
 ---
 
