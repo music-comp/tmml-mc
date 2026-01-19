@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>A List of Connections of Chords - The Technique of My Musical Language: A Modern Companion</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A scholarly companion to Olivier Messiaen&#x27;s La technique de mon langage musical (1944), in the English translation by John Satterfield (1956).">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../../";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../../searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../../toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Technique of My Musical Language: A Modern Companion</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/music-comp/tmml-mc/edit/main/src/part2/03-harmony/ch14-chord-connections.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="a-list-of-connections-of-chords"><a class="header" href="#a-list-of-connections-of-chords">A List of Connections of Chords</a></h1>
+<p><strong>Definition</strong>: A systematic catalog of harmonic progressions, demonstrating practical applications of Messiaen's chord types and techniques across diverse compositional contexts.</p>
+<p><strong>Messiaen's Treatment</strong>: Messiaen provides an extensive series of examples (230–301) organized into several categories:</p>
+<p><strong>Progressions of harmony</strong> (<a href="../../examples/230.png">Examples 230–245</a>): These include retrograde relationships (Examples 230–231 retrograde the second term of progressions), expressive treatments (Example 236), and passages where contrary motion in upper voices changes the progression's character (Example 237). Examples involve rhythmic variation (238, 244, 245), quotations from <em>Vocalise, pour l'Ange qui annonce la fin du Temps</em> (Example 244 superposes modes three and two; Example 245 uses <em>Ta voix</em>). The examples draw from various works and demonstrate both traditional and modal progressions.</p>
+<p><strong>Harmonic litanies</strong> (<a href="../../examples/246.png">Examples 246–251</a>): The harmonic litany—defined as a melodic fragment repeated with different harmonizations—appears in examples drawn from <em>Bail avec Mi</em>, <em>Un reflet dans le vent</em>, <em>Louange à l'Immortalité de Jésus</em>, and <em>Fouillis d'arcs-en-ciel, pour l'Ange qui annonce la fin du Temps</em>.</p>
+<p><strong>Various connections</strong> (<a href="../../examples/252.png">Examples 252–276</a>): This diverse category includes passages written in various modes of limited transpositions (Example 253 in the seventh mode, Example 256 in the second mode), polytonal passages (Example 258 in <em>le Collier</em> appears polytonal despite being in A major, Example 262 being in A major despite polytonal appearance, Example 269 made from 268, Example 274 being polytonal). Example 272 superposes two modes of limited transpositions (mode three in upper staff over mode two in lower staff), appearing again transposed with different rhythm in <em>Arc-en-ciel d'innocence</em>. Example 276 contracts the theme from Debussy's <em>Mélisande</em>.</p>
+<p><strong>Superpositions of perfect and augmented fourths, of perfect and diminished fifths</strong> (<a href="../../examples/277.png">Examples 277–287</a>): Example 277 from <em>Vocalise, pour l'Ange qui annonce la fin du Temps</em> superposes perfect fourths; at the cross (reading from bottom upward): perfect fourth, augmented fourth, perfect fourth. Examples 282–283 show spaced positions creating the same superpositions. Examples 284–287 give glimpses of the "gushing out of chords" described in paragraph 7.</p>
+<p><strong>Examples of longer duration</strong> (<a href="../../examples/288.png">Examples 288–293</a>): Example 287 mixes three harmonic styles (A evokes Ravel, B evokes Stravinsky, C evokes Honegger).</p>
+<p><strong>More refined examples</strong> (<a href="../../examples/294.png">Examples 294–301</a>): Example 288 measure A derives from <em>Fouillis d'arcs-en-ciel, pour l'Ange qui annonce la fin du Temps</em>; measure B contracts the resonance of Example 290. Example 291 transforms three Ravel-like chords (Example 292, Ravel, <em>Ma Mère l'Oye</em>). Example 293 uses at A the connections of 288, at C those of 291, and at B the dominant chord with appoggiature (referencing Example 204, article 1 of this chapter).</p>
+<p><strong>Formulas of accompaniment</strong> (<a href="../../examples/294.png">Examples 294–301</a>): Example 294 (<em>Le nombre léger</em>) places a theme in middle voice. Example 295 calls for a voice above and below the accompaniment. Example 296 (<em>Paysage</em>) employs the second mode of limited transpositions with the theme placed above in the same mode. Example 297 superposes a melodic formula in the fifth mode of limited transpositions upon arpeggios using the sixth of these modes, calling for voices above and below. Example 298 presents bird style with supposed voice below, as do Examples 299 and 300. Example 301 combines voice and accompaniment.</p>
+<p><strong>Modern Context</strong>: This extensive catalog serves multiple pedagogical functions. First, it demonstrates the practical versatility of Messiaen's harmonic vocabulary—the techniques are not merely theoretical constructs but compositionally functional across diverse contexts. Second, the organization by progression type, litany, superposition, and accompaniment formula reveals how Messiaen categorizes harmonic thinking according to compositional function rather than purely theoretical criteria. Third, the frequent citations of his own works (<em>Quatuor pour la fin du Temps</em>, <em>Vocalise</em>, etc.) show how the treatise functions partly as analytical guide to his existing compositions. The mixture of original demonstrations and arrangements of passages by Debussy, Ravel, and Stravinsky positions Messiaen's practice within a continuous tradition while asserting distinctive innovations. Contemporary composition pedagogy rarely provides such extensive catalogs of specific progressions, preferring instead to teach generative principles—Messiaen's approach combines systematic theory with practical model-building, assuming students learn both from abstract principles and concrete exemplars.</p>
+<p><strong>Examples</strong>: <a href="../../examples/230.png">Examples 230–301</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../part2/03-harmony/ch14-natural-harmony.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../part2/03-harmony/ch14-relationship.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../part2/03-harmony/ch14-natural-harmony.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../part2/03-harmony/ch14-relationship.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
