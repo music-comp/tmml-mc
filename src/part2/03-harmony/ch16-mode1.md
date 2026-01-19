@@ -1,0 +1,9 @@
+# First Mode of Limited Transpositions (Whole-Tone Scale)
+
+**Definition**: A six-note collection consisting of six groups of two notes each (a tone and a semitone within each group), transposable only twice. This mode is equivalent to the whole-tone scale.
+
+**Messiaen's Treatment**: Messiaen notes that Debussy employed this mode extensively in works like *Pelléas et Mélisande*, and Paul Dukas made remarkable use of it in *Ariane et Barbe-Bleue*. Given this thorough exploitation by his predecessors, Messiaen states that there is nothing more to add and that he carefully avoids using it unless concealed within a superposition of modes that renders it unrecognizable, as in Example 43 of Chapter VI, paragraph 3.
+
+**Modern Context**: The whole-tone scale represents the most symmetrical division of the octave into equal intervals, creating a collection with maximal transpositional symmetry. Its interval-class vector (060603) reveals that it contains only whole steps and tritones, producing characteristically ambiguous harmonies lacking perfect fifths and thus resisting traditional tonal function. The scale's extensive use by Debussy and other Impressionist composers became so strongly associated with that aesthetic that later composers (including Messiaen) often avoided it to prevent stylistic connotations. Contemporary jazz theory recognizes whole-tone scales as useful for improvisation over augmented triads or altered dominant chords. The mode's avoidance by Messiaen demonstrates his concern with originality—having been "exhausted" by previous composers, it no longer offered fresh expressive possibilities. This position contrasts with serialist composers who might employ all available pitch resources systematically regardless of historical associations.
+
+**Examples**: Referenced but intentionally not demonstrated in isolation; appears concealed in Example 43 (Chapter VI)
