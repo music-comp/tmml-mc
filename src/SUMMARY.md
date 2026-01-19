@@ -122,7 +122,15 @@
       - [List of Melodic Periods (Catalog of Historical Models)](part2/02-melody/ch11-melodic-periods-catalog.md)
     - [Relationship to Other Chapters](part2/02-melody/ch11-relationship.md)
     - [Summary](part2/02-melody/ch11-summary.md)
-  - [Chapter XII: Fugue, Sonata, Plainchant Forms](./part2/02-melody/ch12-forms.md)
+  - [Chapter XII: Fugue, Sonata, Plainchant Forms](part2/02-melody/ch12-forms.md)
+    - [Key Concepts](part2/02-melody/ch12-key-concepts.md)
+      - [Fugue: Episode and Stretto](part2/02-melody/ch12-fugue.md)
+      - [Sonata-Allegro: Terminal Development](part2/02-melody/ch12-sonata-allegro.md)
+      - [Development of Three Themes, Preparing a Final Issued from the First](part2/02-melody/ch12-three-themes.md)
+      - [Variations of the First Theme, Separated by Developments of the Second](part2/02-melody/ch12-theme-variations.md)
+      - [Plainchant Forms: Anthems, Alleluias, Psalmodics, Kyrie, Sequence](part2/02-melody/ch12-plainchant-forms.md)
+    - [Relationship to Other Chapters](part2/02-melody/ch12-relationship.md)
+    - [Summary](part2/02-melody/ch12-summary.md)
 
 ## Harmony
 
