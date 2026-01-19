@@ -112,7 +112,16 @@
       - [Change of Register](part2/02-melody/ch10-change-of-register.md)
     - [Relationship to Other Chapters](part2/02-melody/ch10-relationship.md)
     - [Summary](part2/02-melody/ch10-summary.md)
-  - [Chapter XI: Song-Sentence, Binary and Ternary Sentences](./part2/02-melody/ch11-song-sentence.md)
+  - [Chapter XI: Song-Sentence, Binary and Ternary Sentences](part2/02-melody/ch11-song-sentence.md)
+    - [Key Concepts](part2/02-melody/ch11-key-concepts.md)
+      - [The Musical Sentence as Succession of Periods](part2/02-melody/ch11-musical-sentence.md)
+      - [Song-Sentence (Phrase Musicale)](part2/02-melody/ch11-song-sentence-structure.md)
+      - [Commentary (Commentaire)](part2/02-melody/ch11-commentary.md)
+      - [Binary Sentence](part2/02-melody/ch11-binary-sentence.md)
+      - [Ternary Sentence](part2/02-melody/ch11-ternary-sentence.md)
+      - [List of Melodic Periods (Catalog of Historical Models)](part2/02-melody/ch11-melodic-periods-catalog.md)
+    - [Relationship to Other Chapters](part2/02-melody/ch11-relationship.md)
+    - [Summary](part2/02-melody/ch11-summary.md)
   - [Chapter XII: Fugue, Sonata, Plainchant Forms](./part2/02-melody/ch12-forms.md)
 
 ## Harmony
