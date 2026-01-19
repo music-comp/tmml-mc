@@ -1,68 +1,22 @@
 # Chapter XVII: Modulations of These Modes and Their Relation to the Major Tonality
 
-> **Original**: Pages 64–66 in Satterfield translation  
-> **Musical Examples**: Examples 358–370 in Volume 2
+> **Original**: Pages 64–66 in Satterfield translation
+>
+> **Musical Examples**:
+> - [Example 358](../../examples/358.png)
+> - [Example 359](../../examples/359.png)
+> - [Example 360](../../examples/360.png)
+> - [Example 361](../../examples/361.png)
+> - [Example 362](../../examples/362.png)
+> - [Example 363](../../examples/363.png)
+> - [Example 364](../../examples/364.png)
+> - [Example 365](../../examples/365.png)
+> - [Example 366](../../examples/366.png)
+> - [Example 367](../../examples/367.png)
+> - [Example 368](../../examples/368.png)
+> - [Example 369](../../examples/369.png)
+> - [Example 370](../../examples/370.png)
 
 ## Overview
 
 Chapter XVII addresses the practical question of how Messiaen's modes of limited transpositions interact with traditional tonality and with each other. Despite their symmetrical properties and existence "in the atmosphere of several tonalities at once," these modes can be employed to suggest specific tonal centers through emphasis of particular pitches or through mixing with traditional tonal materials. The chapter demonstrates three types of modal relationships: mixing modes with major tonality, modulation of a mode to itself (changing transposition levels), and modulation from one mode to another. Throughout, Messiaen emphasizes that examples use the chosen mode melodically and harmonically with all notes belonging to the mode, while carefully indicating changes of mode and notes foreign to the mode. The chapter reveals the flexibility of modal practice—modes can function both as autonomous harmonic systems and as elements within larger tonal or multi-modal contexts.
-
-## Key Concepts
-
-### Relation to the Major Tonality
-
-**Definition**: The technique of combining modes of limited transpositions with traditional major-key tonality, either by emphasizing tonal implications inherent within the mode or by mixing modal and non-modal materials to create tonal orientation while preserving modal coloring.
-
-**Messiaen's Treatment**: Messiaen reiterates that the modes exist "in the atmosphere of several tonalities at once, without polytonality, the composer being free to give predominance to one of the tonalities or to leave the tonal impression unsettled." Mode 2 in its first transposition (Example 358) can hesitate among the four major tonalities of C, E-flat, F-sharp, and A. Example 359 demonstrates use of this tonal indecision of Mode 2 (same transposition), quoting only the violoncello song and chords while omitting the piano's accompaniment formula. The passage does not leave the mode's notes; three stops on the six-four chords of A, F-sharp, and E-flat major accentuate the unsettledness.
-
-By frequent return of the tonic of the chosen key or by use of the dominant seventh chord in that key (this last means being most efficacious), Messiaen shows how to mix the mode with major tonality (Example 360). This example, written entirely in Mode 2, third transposition, remains in B major, with the holding of B in the bass strongly establishing the tonality (the slurs between common notes concern execution on the organ). In the following paragraph, Example 363 (*le Banquet céleste*) will demonstrate that nothing is as valuable as the dominant seventh for affirming tonality.
-
-Messiaen also shows how to mix modes with tonalities whose tonics do not appear in the notes of the chosen mode (Example 361). The song of the first two measures uses Mode 2, third transposition; the notes e' and g' (tonic and third) that accompany it do not belong to the mode. Measure X uses Mode 3, second transposition; its expressive and profoundly grievous effort soothes itself on the fifth (b' to f-sharp'), dominant of E, creating tonal impression of E minor. In the same order of ideas, Example 362 presents a small fragment in Mode 2, third transposition, with the b-flat (upper staff) excepted, superposed upon chords made of perfect fourths foreign to the mode (lower staff).
-
-**Modern Context**: This approach reveals Messiaen's pragmatic flexibility regarding modal purity. While the modes theoretically exist outside traditional tonal systems, practical composition often benefits from suggesting tonal orientation to provide listeners with perceptual anchors. Contemporary neo-Riemannian theory would describe some of these techniques as maximizing common-tone relationships between modal and tonal collections—the octatonic collection shares significant pitch-class content with multiple major and minor keys, allowing smooth voice-leading connections. The emphasis on the dominant seventh chord as the most effective tool for tonal affirmation reflects traditional tonal practice, where the V7–I progression serves as the strongest cadential gesture. Messiaen's willingness to mix modal and non-modal materials anticipates later practices in jazz (where modal and tonal elements freely combine) and in film music (where composers regularly blend modal colors with functional harmony to achieve specific dramatic effects). The technique also demonstrates that Messiaen's modes function as compositional resources rather than rigid systems—they can be deployed flexibly according to expressive and formal needs.
-
-**Examples**: Examples 358–362
-
----
-
-### Modulation of a Mode to Itself
-
-**Definition**: The technique of changing transposition levels within a single mode, creating harmonic motion while maintaining the mode's characteristic intervallic structure and sonority. This process functions analogically to traditional modulation between keys but operates within the constraints of symmetrical pitch collections.
-
-**Messiaen's Treatment**: Messiaen explains that modes can modulate to themselves or borrow from themselves in their different transpositions. Example 137 from Chapter XI (*Les Offrandes oubliées*), in which Mode 2 borrows from itself in almost every chord, bears witness to this technique. Example 363 demonstrates another instance: the first measure contains the dominant seventh of F-sharp major in Mode 2, second transposition (Example 364); the second measure presents the perfect chord of F-sharp major in Mode 2, first transposition (Example 365). The e-sharp in the second measure does not belong to the mode, creating very intense tonal impression of F-sharp major and modulation of the mode to itself without the tonality yielding. The pedal, played in droplet-like staccato, sounds an octave above the notation; the true bass is thus in the left hand.
-
-Example 366 provides a last example using exactly the same effect but in more striking fashion: at A, upper staff uses Mode 2, second transposition, with lower staff presenting third inversion of the dominant seventh chord of F-sharp major; at B, upper staff uses Mode 2, first transposition, with lower staff presenting first inversion of the perfect chord of F-sharp major.
-
-**Modern Context**: This technique parallels what contemporary theory might call "transposition within a pitch-class set" or "rotational transformation." However, Messiaen's approach emphasizes perceptual continuity—the mode's characteristic sound remains recognizable despite transposition, while the change of pitch level creates a sense of harmonic motion analogous to traditional modulation. In jazz theory, similar techniques appear when improvisers or arrangers transpose octatonic or other symmetrical collections to create harmonic progression while maintaining modal consistency. The concept also relates to what theorists call "hexatonic" or "octatonic cycles," where systematically transposing symmetrical collections creates networks of harmonic relationships. Messiaen's specific examples show how modal transposition can be coordinated with traditional tonal materials (dominant seventh chords, perfect triads) to create hybrid harmonic progressions that combine modal color with tonal direction. The technical challenge lies in managing the transition between transposition levels—since the modes contain only certain pitch classes, moving from one transposition to another necessarily involves changing some pitches, and Messiaen demonstrates how to make these changes feel natural rather than disruptive. The pedal-point technique (sustained or reiterated bass) helps smooth these transitions by providing continuous tonal orientation even as upper voices change modal transposition.
-
-**Examples**: Examples 363–366 (with reference to Example 137 from Chapter XI)
-
----
-
-### Modulation of a Mode to Another Mode
-
-**Definition**: The technique of moving from one mode of limited transpositions to a different mode, creating large-scale harmonic transformation while maintaining the principle of symmetrical pitch organization. This process allows composers to access different harmonic colors and intervallic structures while remaining within the modal system.
-
-**Messiaen's Treatment**: Messiaen demonstrates modulation from the third mode to the second mode (Example 367): at A, third mode in fourth transposition; at B, second mode in first transposition; at C, major tonality; at D, third mode. General impression of G major arises from frequent return of the tonic G and from the dominant seventh at letter C.
-
-Example 368 shows modulation from the second mode to the third mode: from A to C, second mode in first transposition; at B, cadence formula of this mode (referencing Chapter XVI, Example 321); at C, third mode in first transposition; at D, second mode in second transposition.
-
-Example 369 presents alternation of the third mode and the second mode in progression. At A, third mode; at B, second mode; at C, third mode; at D, second mode. At E, second mode transposed; at F, another transposition of the second mode.
-
-Example 370 demonstrates modulation from Mode 2 to Modes 6 and 4. Melodic contours resemble Mozart. The harmonies of the lower staff are simple and tonal; the modes mingled there suffice to communicate infinite tenderness and divine love. The numerals indicate the modes: moving successively through Mode 2 (third transposition), Mode 2 (second transposition), Mode 6, Mode 2, Mode 6, Mode 2 (second transposition), Mode 2 (first transposition), Mode 4, Mode 2 (second, then third, then second transpositions). It is evident that the passage remains in G major.
-
-**Modern Context**: Inter-modal modulation represents sophisticated harmonic practice, requiring careful voice-leading to manage transitions between collections with different intervallic structures and pitch-class content. Contemporary set theory would analyze these modulations by examining common-tone relationships and voice-leading efficiency between the source and target collections. Some mode pairs share significant pitch-class overlap (for instance, certain transpositions of Mode 2 and Mode 3 might share multiple pitches), facilitating smooth transitions. Other combinations require more dramatic harmonic shifts.
-
-The integration of multiple modes within a single passage (as in Example 370) creates what later theorists might call "patchwork" or "mosaic" form—sections using different harmonic materials juxtaposed to create larger structures. However, Messiaen maintains that these passages can still project clear tonal orientation (Example 370 "is evident that we are in G major") through strategic emphasis of tonal centers and use of traditional harmonic functions. This demonstrates the compatibility of modal and tonal thinking in Messiaen's practice—modes provide harmonic color and intervallic interest, while tonal principles provide large-scale orientation and structural coherence.
-
-The comparison to Mozart in Example 370 is particularly revealing—Messiaen suggests that Classical-era melodic fluency and simplicity can be achieved using modal harmonies, provided the modes are deployed with sensitivity to voice-leading and tonal implication. This contradicts potential assumptions that modal harmony necessarily produces modernist, dissonant, or anti-traditional effects. Instead, Messiaen demonstrates that modes can serve expressive goals (communicating "infinite tenderness and divine love") traditionally associated with tonal music, offering composers expanded harmonic resources without requiring abandonment of expressive clarity or melodic grace.
-
-**Examples**: Examples 367–370
-
-## Relationship to Other Chapters
-
-Chapter XVII directly extends the theoretical foundation established in Chapter XVI, demonstrating practical applications of the modes in contexts requiring tonal orientation or modal variety. The mixing of modes with major tonality connects to discussions of added notes (Chapter XIII) and special chords (Chapter XIV), showing how modal and tonal materials can be combined within single passages. The modulation techniques relate to the "list of connections of chords" in Chapter XIV, paragraph 8, providing additional strategies for harmonic progression. The chapter anticipates Chapter XVIII's discussion of the modes' relationship to various contemporary harmonic systems (modal, atonal, polytonal) and Chapter XIX's systematic treatment of polymodality, where multiple modes operate simultaneously. References to *le Banquet céleste* (Example 363) and *Les Offrandes oubliées* (Example 137) demonstrate how these modulation techniques function in actual compositions. The flexibility demonstrated here—modes as both autonomous systems and elements within tonal contexts—reflects the broader aesthetic principle articulated in Chapter I, where Messiaen advocates for technical resources that serve rather than dictate expressive intentions.
-
-## Summary
-
-Chapter XVII demonstrates the practical flexibility of Messiaen's modes of limited transpositions through three types of modal relationships: mixing modes with major tonality, modulating a mode to itself through transposition changes, and modulating between different modes. Despite their symmetrical properties and theoretical existence outside traditional tonality, the modes can suggest specific tonal centers through emphasis of particular pitches, use of traditional harmonic functions (especially dominant seventh chords), or mixture with non-modal materials. The chapter reveals that modal practice in Messiaen's hands remains pragmatic rather than dogmatic—modes function as harmonic resources that can be deployed in various contexts according to compositional needs, whether to provide coloristic enrichment within tonal frameworks, to create harmonic motion through transposition, or to access diverse harmonic palettes through inter-modal modulation. This flexibility distinguishes Messiaen's modal practice from more rigid systematic approaches, allowing the modes to serve expressive and formal goals while maintaining their characteristic symmetrical properties and distinctive sonorities.
