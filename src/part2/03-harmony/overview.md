@@ -76,7 +76,109 @@ How might you actually use this harmonic system? Several approaches suggest them
 
 **Gestural Articulation**: Shape phrases using upbeat-accent-termination complexes. Experiment with "immense" preparations and dissolutions. Try separating elements with rests, or presenting terminations without preceding accents. Use structural gesture as expressive content.
 
-## The Theological Rainbow
+## Practice: Exercises for Harmonic Exploration
+
+These exercises move from simple to complex. Don't rush—each level builds skills for the next.
+
+### Level 1: Added Notes
+
+**Exercise 1.1: The Added Sixth**
+Take a simple four-bar progression in C major (C–F–G–C). Now add the sixth to every chord (A to C major, D to F major, E to G major). Play both versions. Notice how the added sixths create warmth without changing harmonic function.
+
+**Exercise 1.2: The Added Augmented Fourth**
+Return to your C–F–G–C progression. Add F♯ to the C major chord (the augmented fourth). Let it ring—don't resolve it. This is the characteristic Messiaen sonority. Try adding the augmented fourth to other chords in the progression.
+
+**Exercise 1.3: Combining Added Notes**
+Build a C major chord with both added sixth (A) and added augmented fourth (F♯): C–E–F♯–G–A. This is the Mode 2 chord. Transpose it through the three Mode 2 transposition levels and listen to how the color remains consistent while pitch content changes.
+
+### Level 2: Single Mode Composition
+
+**Exercise 2.1: Mode 2 Melody**
+Write an 8-bar melody using only the pitches of Mode 2, first transposition: C–C♯–D♯–E–F♯–G–A–B♭. Notice which intervals occur naturally (minor seconds, minor thirds, tritones). Let the mode's internal structure guide your contour choices.
+
+**Exercise 2.2: Mode 2 Harmonization**
+Harmonize your melody using only chords built from Mode 2 pitches. Every note in every chord must belong to the mode. Discover which triads, seventh chords, and added-note structures are available.
+
+**Exercise 2.3: Mode 3 Exploration**
+Repeat exercises 2.1 and 2.2 using Mode 3, first transposition: C–D–E♭–E–F♯–G–A♭–B♭–B. With nine pitches available, you have more harmonic options but the mode still excludes three chromatic pitches (D♭, F, A). Notice how these "gaps" create the mode's distinctive character.
+
+### Level 3: Modal Modulation
+
+**Exercise 3.1: Transposition Change**
+Write a passage in Mode 2, first transposition. At the midpoint, shift to Mode 2, second transposition (C♯–D–E–F–G–A♭–B♭–B). Find smooth voice-leading between the two transpositions—which pitches are common to both?
+
+**Exercise 3.2: Mode-to-Mode Modulation**
+Write a passage that begins in Mode 2 and modulates to Mode 3. Plan the transition: which pitches do these modes share in your chosen transpositions? Can you find a chord that belongs to both modes as a pivot?
+
+**Exercise 3.3: Modal-Tonal Mixture**
+Write a passage in Mode 2 that clearly establishes F♯ major as tonal center. Use the dominant seventh of F♯ (C♯7) and frequent returns to F♯ in the bass. Notice how tonal orientation and modal color coexist.
+
+### Level 4: Special Chords and Resonance
+
+**Exercise 4.1: Chord of Resonance**
+Build the chord of resonance from a low C: add the pitches suggested by the overtone series (E, G, B♭, D, F♯, and higher partials as desired). Voice it in different registrations—spread across the keyboard, clustered in middle register, with wide bass and close upper voices.
+
+**Exercise 4.2: Stained-Glass Window**
+Take one chord (try the chord of resonance or the added-sixth-plus-augmented-fourth chord). Create a passage where this single harmony appears in multiple inversions over a pedal bass, with different voicings and registrations. The harmony doesn't change; only its coloring shifts.
+
+**Exercise 4.3: Superior and Inferior Resonance**
+Write a simple chord progression. Add "superior resonance" (small chord clusters above each main chord) and "inferior resonance" (clusters below). Experiment with how close or distant these resonance clusters are from the principal harmony.
+
+### Level 5: Enlargement and Gesture
+
+**Exercise 5.1: Pedal Group**
+Create a four-chord pattern (not a single pedal note, but a complete repeating progression). Loop this as an ostinato in one hand while the other hand plays freely above or below it. The looping pattern functions as a single "enlarged pedal."
+
+**Exercise 5.2: Upbeat-Accent-Termination**
+Write a phrase with exaggerated gesture: an "immense" upbeat (four or more bars of preparation building in register and dynamics), a sudden accent (fortissimo arrival), and an extended termination (gradual dissolution over several bars). Then try separating these elements with rests.
+
+**Exercise 5.3: Embellishment Group**
+Write a held chord. Before resolving it, insert an "immense scroll"—an elaborate flourish that ornaments the chord's top note before finally moving to the next harmony. The flourish should feel like a single ornament despite lasting several beats.
+
+### Level 6: Polymodality
+
+**Exercise 6.1: Two-Mode Superposition**
+Right hand: write a passage using Mode 3, first transposition.
+Left hand: write an accompaniment using Mode 2, second transposition.
+Each hand must stay strictly within its assigned mode. Listen to the vertical combinations that result—neither mode alone produces these sonorities.
+
+**Exercise 6.2: Unequal Pedal Groups**
+Create two polymodal pedal groups of different lengths (e.g., 5 chords in Mode 3 above, 4 chords in Mode 2 below). Loop both simultaneously. They'll realign after 20 iterations—but notice the shifting vertical relationships along the way.
+
+**Exercise 6.3: Polymodal Modulation**
+Write a passage that begins with Mode 3 over Mode 2, then modulates to Mode 2 over Mode 3 (exchange which mode is in which layer). Finally, modulate to a completely different combination (Mode 6 over Mode 4, for instance). Plan voice-leading for smooth transitions.
+
+### Level 7: Integration
+
+**Exercise 7.1: Complete Miniature**
+Write a 16-bar piece that uses:
+
+- Added notes (at least added sixth and augmented fourth)
+- One mode of limited transpositions as primary harmonic material
+- At least one modal modulation (transposition change or mode change)
+- One instance of upbeat-accent-termination articulation
+
+**Exercise 7.2: Parametric Coordination**
+Write a passage combining:
+
+- Nonretrogradable rhythm in one voice
+- Mode of limited transpositions in harmony
+- Added values in melodic rhythm
+- Added notes in chord voicings
+
+The symmetry principles should operate in parallel across parameters.
+
+**Exercise 7.3: Your Harmonic Signature**
+After working through these exercises, identify:
+
+- Which mode(s) appeal most to your ear?
+- Which added-note combinations feel most characteristic?
+- What voicing preferences have emerged?
+- How do you tend to handle modal modulation?
+
+Document these discoveries in Part IV (the composer's workbook). This is the beginning of understanding your own harmonic language through Messiaen's method of systematic self-observation.
+
+## The Transcendental Rainbow
 
 Messiaen concludes his modes chapter by asking whether we need reminding of their deeper purpose: creating "that sort of theological rainbow which the musical language, of which we seek edification and theory, attempts to be." This isn't decorative rhetoric—it's statement of purpose.
 
