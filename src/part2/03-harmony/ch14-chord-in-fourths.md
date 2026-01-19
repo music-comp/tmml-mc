@@ -1,0 +1,9 @@
+# The Chord in Fourths
+
+**Definition**: A harmonic structure built from stacked perfect and augmented fourths, abandoning tertian construction in favor of quartal sonorities.
+
+**Messiaen's Treatment**: Messiaen advocates forgetting "classic chords of superposed thirds to use a chord of augmented and perfect fourths" ([Example 213](../../examples/213.png)). This chord contains all notes of the fifth mode of limited transpositions ([Example 214](../../examples/214.png)). Associated with this chord and mode is a specific melodic formula ([Example 215](../../examples/215.png)), previously cited in Chapter X regarding the interversion of notes. [Example 216](../../examples/216.png) demonstrates a succession offering use of both the chord in fourths and the chord of resonance at different structural points.
+
+**Modern Context**: Quartal harmony emerged prominently in early twentieth-century music, particularly in works by Scriabin, Schoenberg, and American composers like Copland and Ives. Messiaen's systematic association of the quartal chord with the fifth mode of limited transpositions reveals the underlying symmetrical structures that generate both vertical and horizontal musical materials. Contemporary theory recognizes quartal chords as producing sonorities ambiguous between major and minor, creating harmonic color distinct from tertian formations. The intervallic content of stacked fourths creates set classes with particular invariance properties under transposition and inversion, explaining the connection to limited transposition modes. Jazz composers from the 1960s onward (particularly McCoy Tyner and post-bop pianists) would extensively exploit similar quartal voicings, often without awareness of Messiaen's theoretical systematization.
+
+**Examples**: [Examples 213–216](../../examples/213.png)

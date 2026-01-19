@@ -1,0 +1,9 @@
+# Clusters of Chords
+
+**Definition**: Multiple chords sounding simultaneously, creating dense harmonic textures and coloristic stratifications.
+
+**Messiaen's Treatment**: Messiaen presents [Example 222](../../examples/222.png) as an illustration of chord clusters, describing it as "a gentle cascade of blue-orange chords surrounding with its distant carillon the melody, quasi-plainchant, of the strings." The passage contains superposed fourths at point A, a progression upon the chord of resonance at point B (referencing [Example 212](../../examples/212.png)), and the second mode of limited transpositions at point C. This technique creates stratified textures where multiple harmonic layers function simultaneously, each potentially drawn from different modal sources.
+
+**Modern Context**: The term "chord clusters" in contemporary usage typically refers to chromatic or diatonic clusters (adjacent pitches played simultaneously), as in the music of Henry Cowell or Iannis Xenakis. Messiaen's usage appears more specific: multiple distinct chords (each potentially complex) sounding together rather than undifferentiated chromatic aggregates. This technique anticipates later practices in composers like Stockhausen (who studied with Messiaen) and Lutosławski, where multiple harmonic strata operate independently. The "blue-orange" color association reveals Messiaen's synesthesia, where harmonic combinations evoke specific color perceptions. The integration of multiple modes and chord types within single textures demonstrates the synthetic potential of Messiaen's harmonic vocabulary—the modes of limited transpositions, resonance chords, and quartal structures can coexist in polystylistic or polymodal combinations.
+
+**Examples**: [Examples 217](../../examples/217.png), [222](../../examples/222.png)

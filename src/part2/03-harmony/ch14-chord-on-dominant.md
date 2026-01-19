@@ -1,0 +1,9 @@
+# The Chord on the Dominant
+
+**Definition**: A saturated harmonic structure containing all seven pitch-classes of the major scale, functioning as an enriched dominant sonority.
+
+**Messiaen's Treatment**: Messiaen presents this chord as containing all notes of the major scale ([Example 201](../../examples/201.png)), with its supposed resolution shown in [Example 202](../../examples/202.png). However, rather than treating these pitches as appoggiature requiring resolution, Messiaen transforms them into added notes ([Example 203](../../examples/203.png)), thereby creating a stable, self-sufficient sonority. The chapter demonstrates various coloristic treatments of this chord, particularly through what Messiaen calls "multicolor work"—arranging different inversions of the chord with appoggiature over a common bass note (C-sharp or D-flat) to create a stained-glass window effect ([Example 204](../../examples/204.png)). Additional dispositions and transformations appear in [Examples 205–207](../../examples/205.png), showing how the chord functions both as a functional dominant and as a coloristic entity in its own right.
+
+**Modern Context**: This chord anticipates what jazz theory would later systematize as the dominant thirteenth chord with various alterations. The seven-note collection represents maximal saturation within diatonic space—every scale degree appears simultaneously, creating a sonority that hovers between extreme tension and stasis. Contemporary set theory would identify this as set class 7-35 (the diatonic collection), though Messiaen's emphasis on bass pedal and inversion places the structure within a quasi-functional rather than purely set-theoretical context. The "stained-glass window" metaphor reveals Messiaen's visual-sonic synesthesia and his concern with harmony as color rather than merely as functional progression.
+
+**Examples**: [Examples 201–207](../../examples/201.png)
