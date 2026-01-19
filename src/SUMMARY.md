@@ -135,7 +135,14 @@
 ## Harmony
 
 - [Harmony](./part2/03-harmony/overview.md)
-  - [Chapter XIII: Harmony, Debussy, Added Notes](./part2/03-harmony/ch13-added-notes.md)
+  - [Chapter XIII: Harmony, Debussy, Added Notes](part2/03-harmony/ch13-added-notes.md)
+    - [Key Concepts](part2/03-harmony/ch13-key-concepts.md)
+      - [Added Notes (Notes Ajoutées)](part2/03-harmony/ch13-added-notes-concept.md)
+      - [The Added Sixth and Added Augmented Fourth](part2/03-harmony/ch13-added-sixth-fourth.md)
+      - [Relation Between Added Notes and Added Values](part2/03-harmony/ch13-relation-values.md)
+      - [Use of Added Notes in Messiaen's Own Music](part2/03-harmony/ch13-use-in-music.md)
+    - [Relationship to Other Chapters](part2/03-harmony/ch13-relationship.md)
+      - [Summary](part2/03-harmony/ch13-summary.md)
   - [Chapter XIV: Special Chords, Clusters, Connections](./part2/03-harmony/ch14-special-chords.md)
   - [Chapter XV: Enlargement of Foreign Notes, Upbeats, Terminations](./part2/03-harmony/ch15-enlargement.md)
   - [Chapter XVI: Modes of Limited Transpositions](./part2/03-harmony/ch16-modes.md)

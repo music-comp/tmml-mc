@@ -1,0 +1,9 @@
+# Added Notes (Notes Ajoutées)
+
+**Definition**: Pitches added to a conventional chord structure that function as integral chord members rather than as nonharmonic tones requiring resolution. These pitches maintain their "foreign" quality (they add color and "spice" to the sonority) while simultaneously possessing full citizenship within the chord.
+
+**Messiaen's Treatment**: Messiaen traces the historical emergence of added notes through Debussy's piano works, particularly *Pelleas et Melisande*, *les Estampes*, *les Preludes*, and *les Images*. In these works, what traditional harmony would classify as appoggiature, passing tones, or other nonharmonic embellishments appear without preparation or resolution, yet achieve harmonic stability through their sonic resonance with the fundamental chord tones. Messiaen describes these notes as possessing "a certain citizenship in the chord, either because they have the same sonority as some classified appoggiatura, or because they issue from the resonance of the fundamental." The result is a transformation of the chord's timbre—changing its color, providing new aromatic quality—without destroying its identity.
+
+**Modern Context**: Contemporary pitch-class set theory would describe many of Messiaen's added-note chords as specific set classes that include both tertian and non-tertian elements. For example, a major triad with added sixth and augmented fourth forms a five-note collection. However, Messiaen's conception differs from set-theoretical approaches in its preservation of chord function and identity: the added notes enrich rather than replace the underlying harmonic structure. This approach anticipates later jazz harmony, where added sixths, ninths, elevenths, and thirteenths function similarly as chord members rather than extensions requiring resolution.
+
+**Examples**: [Examples 183–188](../../examples/183.png), [196](../../examples/196.png)

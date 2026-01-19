@@ -1,0 +1,3 @@
+# Summary
+
+Chapter XIII establishes added notes as a central harmonic principle in Messiaen's compositional language, positioning Debussy as the historical figure who legitimized these sonorities as structural chord members. By drawing explicit parallels to added rhythmic values and providing extensive examples from his own works, Messiaen demonstrates how this harmonic technique functions not as an isolated phenomenon but as one manifestation of broader aesthetic principles governing his entire musical system. The added sixth and augmented fourth emerge as particularly significant sonorities that will connect to the modal structures discussed in subsequent chapters.
