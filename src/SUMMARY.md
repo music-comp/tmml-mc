@@ -181,7 +181,14 @@
       - [Modulation of a Mode to Another Mode](part2/03-harmony/ch17-modulation-to-another.md)
     - [Relationship to Other Chapters](part2/03-harmony/ch17-relationship.md)
     - [Summary](part2/03-harmony/ch17-summary.md)
-  - [Chapter XVIII: Relation to Modal, Atonal, Polytonal, Quarter-Tone Music](./part2/03-harmony/ch18-modal-relations.md)
+  - [Chapter XVIII: Relation of These Modes to Modal, Atonal, Polytonal, and Quarter-Tone Music](part2/03-harmony/ch18-modal-relations.md)
+    - [Key Concepts](part2/03-harmony/ch18-key-concepts.md)
+      - [Distinction from Traditional Modal Systems](part2/03-harmony/ch18-traditional-modal-systems.md)
+      - [Relation to Atonal Music](part2/03-harmony/ch18-atonal-music.md)
+      - [Relation to Polytonal Music](part2/03-harmony/ch18-polytonal-music.md)
+      - [Quarter-Tone Music](part2/03-harmony/ch18-quarter-tone-music.md)
+    - [Relationship to Other Chapters](part2/03-harmony/ch18-relationship.md)
+    - [Summary](part2/03-harmony/ch18-summary.md)
   - [Chapter XIX: Polymodality](./part2/03-harmony/ch19-polymodality.md)
 
 ---
